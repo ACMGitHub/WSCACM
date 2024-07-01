@@ -10,8 +10,7 @@
 	import '../app.css';
 	import ScreenNav from '../lib/components/ScreenNav.svelte';
 	import PhoneNav from '../lib/components/PhoneNav.svelte';
-
-	export const prerender = true
+	import { base } from '$app/paths';
 
 	let innerWidth = 0;
 </script>
@@ -26,7 +25,7 @@
 
 <div class="overview-hidden bg-[url(/images/circuit-board.jpeg)] bg-fixed bg-center bg-cover">
 	<div class="my-24 lg:my-40">
-		<Img src="/images/ACMLogo.png" alt="ACM Banner" class="w-1/2 md:w-1/4 mx-auto brightness-100" />
+		<Img src="{base}/images/ACMLogo.png" alt="ACM Banner" class="w-1/2 md:w-1/4 mx-auto brightness-100" />
 
 		<Heading
 			tag="h1"
@@ -40,7 +39,7 @@
 	</div>
 	<Footer class="bg-slate-900 text-slate-300 py-8 text-center">
 		<FooterLinkGroup ulClass="flex justify-evenly mt-3 text-sm list-none p-0">
-			<FooterCopyright href="/" by="WSC ACM™" year={2024} /> |
+			<FooterCopyright href="{base}/" by="WSC ACM™" year={2024} /> |
 			<FooterLink href="https://www.wsc.edu/">Wayne State College</FooterLink> |
 			<FooterLink href="https://www.acm.org/">Association for Computing Machinery</FooterLink>
 		</FooterLinkGroup>

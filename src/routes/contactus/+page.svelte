@@ -1,5 +1,6 @@
 <script>
 	import { A, Avatar, Heading, P } from 'flowbite-svelte';
+	import { base } from '$app/paths';
 
 	const avatarStyle = 'w-20 rounded-full';
 </script>
@@ -22,7 +23,7 @@
 			>2024 Officer Team</Heading
 		>
 		<div class="flex items-center">
-			<Avatar src="/images/dakotaG.jpg" alt="Dakota Gullicksen" class={avatarStyle} />
+			<Avatar src="{base}/images/dakotaG.jpg" alt="Dakota Gullicksen" class={avatarStyle} />
 			<div class="pl-2">
 				<p class="font-bold">Dakota Gullicksen - President</p>
 				<a href="mailto:kogull01@wsc.edu">kogull01@wsc.edu</a>
@@ -30,7 +31,7 @@
 		</div>
 
 		<div class="flex items-center">
-			<Avatar src="/images/JaydenC.jpg" alt="Jayden Carper" class={avatarStyle} />
+			<Avatar src="{base}/images/JaydenC.jpg" alt="Jayden Carper" class={avatarStyle} />
 			<div class="pl-2">
 				<p class="font-bold">Jayden Carper - Vice President</p>
 				<a href="mailto:jacarp01@wsc.edu">jacarp01@wsc.edu</a>
@@ -38,7 +39,7 @@
 		</div>
 
 		<div class="flex items-center">
-			<Avatar src="/images/Aunik.jpg" alt="Ajharul Islam Aunik" class={avatarStyle} />
+			<Avatar src="{base}/images/Aunik.jpg" alt="Ajharul Islam Aunik" class={avatarStyle} />
 			<div class="pl-2">
 				<p class="font-bold">Ajharul Islam Aunik - Secretary</p>
 				<a href="mailto:ajauni01@wsc.edu">ajauni01@wsc.edu</a>
@@ -46,7 +47,7 @@
 		</div>
 
 		<div class="flex items-center">
-			<Avatar src="/images/AdahH.jpg" alt="Adah Heng" class={avatarStyle} />
+			<Avatar src="{base}/images/AdahH.jpg" alt="Adah Heng" class={avatarStyle} />
 			<div class="pl-2">
 				<p class="font-bold">Adah Heng - Treasurer</p>
 				<a href="mailto:adheng01@wsc.edu">adheng01@wsc.edu</a>
@@ -54,7 +55,7 @@
 		</div>
 
 		<div class="flex items-center">
-			<Avatar src="/images/no-profile.png" alt="Tristin Patzel" class={avatarStyle} />
+			<Avatar src="{base}/images/no-profile.png" alt="Tristin Patzel" class={avatarStyle} />
 			<div class="pl-2">
 				<p class="font-bold">Tristin Patzel - Historian</p>
 				<a href="mailto:trpatz01@wsc.edu">trpatz01@wsc.edu</a>
@@ -62,7 +63,7 @@
 		</div>
 
 		<div class="flex items-center">
-			<Avatar src="/images/BrandonB.jpg" alt="Brandon Berger" class={avatarStyle} />
+			<Avatar src="{base}/images/BrandonB.jpg" alt="Brandon Berger" class={avatarStyle} />
 			<div class="pl-2">
 				<p class="font-bold">Brandon Berger - Recruiter</p>
 				<a href="mailto:brberg05@wsc.edu">brberg05@wsc.edu</a>
@@ -70,7 +71,7 @@
 		</div>
 
 		<div class="flex items-center">
-			<Avatar src="/images/Jeremy_Wynia.jpg" alt="Jeremy Wynia" class={avatarStyle} />
+			<Avatar src="{base}/images/Jeremy_Wynia.jpg" alt="Jeremy Wynia" class={avatarStyle} />
 			<div class="pl-2">
 				<p class="font-bold">Jeremy Wynia - Advisor</p>
 				<a href="mailto:jewynia1@wsc.edu">jewynia1@wsc.edu</a>
