@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/stores';
-	import { slide } from 'svelte/transition';
 	import Icon from '@iconify/svelte';
+	import { base } from '$app/paths';
 
 	let smallMenuHidden = true;
 
@@ -23,12 +23,10 @@
 
 	{#if !smallMenuHidden}
 		<div class="h-screen">
-			<ul
-				class="p-3 bg-slate-900 space-y-6 mx-auto text-center text-nowrap list-none"
-			>
+			<ul class="p-3 bg-slate-900 space-y-6 mx-auto text-center text-nowrap list-none">
 				<li>
 					<a
-						href="/"
+						href="{base}/"
 						class={activeUrl == '/' ? activeClass : tabsStyle}
 						on:click={() => {
 							smallMenuHidden = true;
@@ -37,7 +35,7 @@
 				</li>
 				<li>
 					<a
-						href="/about"
+						href="{base}/about"
 						class={activeUrl == '/about' ? activeClass : tabsStyle}
 						on:click={() => {
 							smallMenuHidden = true;
@@ -47,7 +45,7 @@
 				<li>
 					<a
 						class={activeUrl == '/committees/comppro' ? activeClass : tabsStyle}
-						href="/committees/comppro"
+						href="{base}/committees/comppro"
 						on:click={() => {
 							smallMenuHidden = true;
 						}}>Competitive Programming</a
@@ -56,7 +54,7 @@
 				<li>
 					<a
 						class={activeUrl == '/committees/project' ? activeClass : tabsStyle}
-						href="/committees/project"
+						href="{base}/committees/project"
 						on:click={() => {
 							smallMenuHidden = true;
 						}}>Project Committee</a
@@ -65,7 +63,7 @@
 				<li>
 					<a
 						class={activeUrl == '/committees/robotics' ? activeClass : tabsStyle}
-						href="/committees/robotics"
+						href="{base}/committees/robotics"
 						on:click={() => {
 							smallMenuHidden = true;
 						}}>Robotics Committee</a
@@ -74,7 +72,7 @@
 				<li>
 					<a
 						class={activeUrl == '/committees/website' ? activeClass : tabsStyle}
-						href="/committees/website"
+						href="{base}/committees/website"
 						on:click={() => {
 							smallMenuHidden = true;
 						}}>Website Committee</a
@@ -82,7 +80,7 @@
 				</li>
 				<li>
 					<a
-						href="/meetingtimes"
+						href="{base}/meetingtimes"
 						class={activeUrl == '/meetingtimes' ? activeClass : tabsStyle}
 						on:click={() => {
 							smallMenuHidden = true;
@@ -93,7 +91,7 @@
 				</li>
 				<li>
 					<a
-						href="/contactus"
+						href="{base}/contactus"
 						class={activeUrl == '/contactus' ? activeClass : tabsStyle}
 						on:click={() => {
 							smallMenuHidden = true;
@@ -105,7 +103,7 @@
 				<li>
 					<a
 						class={tabsStyle}
-						href="/resources/joining"
+						href="{base}/resources/joining"
 						on:click={() => {
 							smallMenuHidden = true;
 						}}>How to Join</a
@@ -114,7 +112,7 @@
 				<li>
 					<a
 						class={tabsStyle}
-						href="/resources/teams"
+						href="{base}/resources/teams"
 						on:click={() => {
 							smallMenuHidden = true;
 						}}>Microsoft Teams</a

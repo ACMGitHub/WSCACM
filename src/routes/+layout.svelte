@@ -11,6 +11,8 @@
 	import ScreenNav from '../lib/components/ScreenNav.svelte';
 	import PhoneNav from '../lib/components/PhoneNav.svelte';
 
+	export const prerender = true
+
 	let innerWidth = 0;
 </script>
 

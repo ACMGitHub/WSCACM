@@ -3,10 +3,12 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+			fallback: '200.html' // may differ from host to host
+		}),
 		paths: {
-            base: process.env.NODE_ENV === 'production' ? '/sveltekit-github-pages' : '',
-        }
+			base: process.env.NODE_ENV === 'production' ? '/WSCACM' : ''
+		}
 	},
 	preprocess: vitePreprocess()
 };
