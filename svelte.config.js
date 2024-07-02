@@ -1,15 +1,15 @@
 import adapter from '@sveltejs/adapter-static';
-import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+// import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
 		adapter: adapter({
-			fallback: '200.html' // may differ from host to host
+			fallback: '404.html' // may differ from host to host
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/WSCACM' : ''
+			base: process.argv.includes('dev') ? '' : '/WSCACM'
 		}
-	},
-	preprocess: vitePreprocess()
+	}
+	// preprocess: vitePreprocess()
 };
 export default config;
