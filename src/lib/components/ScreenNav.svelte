@@ -16,10 +16,10 @@
 </script>
 
 <div
-	class="text-slate-100 bg-slate-900 p-4 fixed top-0 left-0 right-0 flex justify-evenly z-10 text-sm"
+	class="text-slate-100 bg-slate-900 p-4 fixed top-0 left-0 right-0 flex justify-evenly z-10 text-sm md:text-lg"
 >
-	<a href="{ base }/" class={activeUrl == '/' ? activeClass : tabsStyle}>Home</a>
-	<a href="{ base }/about" class={activeUrl == '/about' ? activeClass : tabsStyle}>About Us</a>
+	<a href="{base}/" class={activeUrl == `${base}/` ? activeClass : tabsStyle}>Home</a>
+	<a href="{base}/about" class={activeUrl == `${base}/about` ? activeClass : tabsStyle}>About Us</a>
 	<div
 		class="relative"
 		on:mouseover={() => {
@@ -47,36 +47,41 @@
 				<ul class={dropDownStyle}>
 					<li>
 						<a
-							class={activeUrl == '/committees/comppro' ? activeClass : tabsStyle}
-							href="{ base }/committees/comppro">Competitive Programming</a
+							class={activeUrl == `${base}/committees/comppro` ? activeClass : tabsStyle}
+							href="{base}/committees/comppro">Competitive Programming</a
 						>
 					</li>
 					<li>
 						<a
-							class={activeUrl == '/committees/project' ? activeClass : tabsStyle}
-							href="{ base }/committees/project">Project Committee</a
+							class={activeUrl == `${base}/committees/project` ? activeClass : tabsStyle}
+							href="{base}/committees/project">Project Committee</a
 						>
 					</li>
 					<li>
 						<a
-							class={activeUrl == '/committees/robotics' ? activeClass : tabsStyle}
-							href="{ base }/committees/robotics">Robotics Committee</a
+							class={activeUrl == `${base}/committees/robotics` ? activeClass : tabsStyle}
+							href="{base}/committees/robotics">Robotics Committee</a
 						>
 					</li>
 					<li>
 						<a
-							class={activeUrl == '/committees/website' ? activeClass : tabsStyle}
-							href="{ base }/committees/website">Website Committee</a
+							class={activeUrl == `${base}/committees/website` ? activeClass : tabsStyle}
+							href="{base}/committees/website">Website Committee</a
 						>
 					</li>
 				</ul>
 			</div>
 		{/if}
 	</div>
-	<a href="{ base }/meetingtimes" class={activeUrl == '/meetingtimes' ? activeClass : tabsStyle}>
+	<a
+		href="{base}/meetingtimes"
+		class={activeUrl == `${base}/meetingtimes` ? activeClass : tabsStyle}
+	>
 		Meeting Times
 	</a>
-	<a href="{ base }/contactus" class={activeUrl == '/contactus' ? activeClass : tabsStyle}> Contact Us </a>
+	<a href="{base}/contactus" class={activeUrl == `${base}/contactus` ? activeClass : tabsStyle}>
+		Contact Us
+	</a>
 	<div
 		class="relative"
 		on:mouseover={() => {
@@ -104,10 +109,16 @@
 			<div class="absolute -left-5">
 				<ul class={dropDownStyle} transition:slide={{ duration: 300, axis: 'y' }}>
 					<li>
-						<a class={tabsStyle} href="{ base }/resources/joining">How to Join</a>
+						<a
+							class={activeUrl == `${base}/resources/joining` ? activeClass : tabsStyle}
+							href="{base}/resources/joining">How to Join</a
+						>
 					</li>
 					<li>
-						<a class={tabsStyle} href="{ base }/resources/teams">Microsoft Teams</a>
+						<a
+							class={activeUrl == `${base}/resources/teams` ? activeClass : tabsStyle}
+							href="{base}/resources/teams">Microsoft Teams</a
+						>
 					</li>
 				</ul>
 			</div>

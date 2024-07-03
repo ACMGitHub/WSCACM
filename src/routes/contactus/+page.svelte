@@ -63,7 +63,7 @@
 		</div>
 
 		<div class="flex items-center">
-			<Avatar src="{base}/images/BrandonB.jpg" alt="Brandon Berger" class={avatarStyle} />
+			<Avatar src="{base}/images/BrandonB.png" alt="Brandon Berger" class={avatarStyle} />
 			<div class="pl-2">
 				<p class="font-bold">Brandon Berger - Recruiter</p>
 				<a href="mailto:brberg05@wsc.edu">brberg05@wsc.edu</a>
