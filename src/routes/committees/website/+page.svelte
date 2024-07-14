@@ -19,7 +19,7 @@
 <!-- for some reason list-disc only needs to be in one spot for there to be bullet points -->
 <List tag="ul" list="disc" class="ps-5 space-y-1">
 	<Li
-		>There needs to be one project leader that is in charge of organizing and reviewing any chabges
+		>There needs to be one project leader that is in charge of organizing and reviewing any changes
 		to the site.</Li
 	>
 	<Li>A basic level of how GitHub works before writing any code.</Li>
