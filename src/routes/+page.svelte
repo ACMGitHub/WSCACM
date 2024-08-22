@@ -2,15 +2,15 @@
 	import { Gallery} from 'flowbite-svelte';
 
 	const images = [
-		{ alt: 'place holder', src: 'images/IMG_4461.JPG' },
-		{ alt: 'place holder', src: 'images/IMG_4477.JPG' },
-		{ alt: 'place holder', src: 'images/IMG_4480.JPG' },
-		{ alt: 'place holder', src: 'images/IMG_4552.jpg' },
-		{ alt: 'place holder', src: 'images/IMG_4556.jpg' },
-		{ alt: 'place holder', src: 'images/IMG_4641.jpg' },
-		{ alt: 'place holder', src: 'images/IMG_4672.jpg' },
-		{ alt: 'place holder', src: 'images/IMG_4673.jpg' },
-		{ alt: 'place holder', src: 'images/IMG_4686.jpg' }
+		{ alt: 'place holder', src: 'images/none_specific/2024_2025/clubFair.jpeg' },
+		{ alt: 'place holder', src: 'images/none_specific/2023_2024/IMG_4477.JPG' },
+		{ alt: 'place holder', src: 'images/none_specific/2023_2024/IMG_4480.JPG' },
+		{ alt: 'place holder', src: 'images/none_specific/2023_2024/IMG_4552.jpg' },
+		{ alt: 'place holder', src: 'images/none_specific/2023_2024/IMG_4556.jpg' },
+		{ alt: 'place holder', src: 'images/none_specific/2023_2024/IMG_4641.jpg' },
+		{ alt: 'place holder', src: 'images/none_specific/2023_2024/IMG_4672.jpg' },
+		{ alt: 'place holder', src: 'images/none_specific/2023_2024/IMG_4673.jpg' },
+		{ alt: 'place holder', src: 'images/none_specific/2023_2024/IMG_4686.jpg' }
 	];
 </script>
 

@@ -48,6 +48,6 @@
 			before, establishing good connections with professionals and other students, and having students
 			something to put on their resume.
 		</p>
-		<Img src="{base}/images/groupPic.jpeg" alt="2024 ACM group picture" />
+		<Img src="{base}/images/none_specific/2023_2024/groupPic.jpeg" alt="2024 ACM group picture" />
 	</div>
 </div>
