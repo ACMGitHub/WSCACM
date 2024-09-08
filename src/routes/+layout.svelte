@@ -31,7 +31,7 @@
 			tag="h1"
 			class="text-3xl font-extrabold md:text-4xl lg:text-5xl text-slate-100 text-center"
 		>
-			Where ALL WSC Students Are Welcome!
+			Where ALL WSC Students Are Welcome! Purple Aligator
 		</Heading>
 	</div>
 	<div class="bg-slate-100 py-8">
