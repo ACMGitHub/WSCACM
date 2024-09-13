@@ -51,6 +51,7 @@
 						}}>Competitive Programming</a
 					>
 				</li>
+				<!-- Moose -->
 				<li>
 					<a
 						class={activeUrl == '/committees/project' ? activeClass : tabsStyle}

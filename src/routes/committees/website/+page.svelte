@@ -24,6 +24,7 @@
 	>
 	<Li>A basic level of how GitHub works before writing any code.</Li>
 	<Li>Branches should be based on features.</Li>
+	<!-- Dog -->
 	<Li>Keep to the color scheme.</Li>
 	<Li>Reupload the old site only if the current site has issues.</Li>
 	<Li>Everyone has to have a GitHub account.</Li>
