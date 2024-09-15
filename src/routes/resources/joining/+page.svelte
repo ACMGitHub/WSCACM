@@ -33,7 +33,7 @@
 			>myACM
 		</a>
 	</p>
-	<!-- Snake -->
+	
 	<p>
 		Once you have successfully made an account, please forward your ACM ID number to either the
 		President or Secretary. Your contribution is pivotal in helping us achieve our membership goals
