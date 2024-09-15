@@ -33,7 +33,7 @@
 	</Li>
 	<Li>A project leader to keep the project on track and organized.</Li>
 </List>
-<!-- Bird -->
+
 <Heading tag="h3" class="text-center" customSize="text-lg font-extrabold m-4  md:text-xl lg:text-xl"
 	>Recommendations
 </Heading>
