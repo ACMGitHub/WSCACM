@@ -45,7 +45,6 @@
 				<a href="mailto:ajauni01@wsc.edu">ajauni01@wsc.edu</a>
 			</div>
 		</div>
-		<!-- Rabbit -->
 
 		<div class="flex items-center">
 			<Avatar src="{base}/images/officers/AdahH.jpg" alt="Adah Heng" class={avatarStyle} />
