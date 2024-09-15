@@ -34,7 +34,6 @@
 			club. Our club focuses on all things technology and computers, however, students don't need to
 			be good with computers to enjoy our club.
 		</p>
-		<!-- Frog -->
 		<p>
 			Unlike other clubs, <b>our club does a committee system</b> where you can work in small groups
 			with projects more suited for you. We have committees such as the
