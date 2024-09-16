@@ -22,7 +22,6 @@
 		people individually or in groups, which helps cut down the amount of emails being sent back and
 		forth.
 	</p>
-	<!-- Cat -->
 	<p class="pb-4">
 		All Wayne State College Students have access to Teams through their myWSC. To view Teams on your
 		browser all you have to do is log into your <b>myWSC</b>, go to
