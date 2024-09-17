@@ -26,7 +26,7 @@
 ## Terminal Commands
 - npm run dev - runs a local website of the software to preview
 - npm run preview - previews the build environment
-- git build - creates a build environment (this is necessary for the live website to have your changes)
+- npm run build - creates a build environment (this is necessary for the live website to have your changes)
 - npm i - installs all of the packages in the package.json files, this will automatically update them as well
 - git pull - pull in the latest changes of the branch (recommend doing this to the main branch frequently)
 - git merge <branch name> - merges the branch into whatever current branch you are on (don't do this in main, do this in other branches to get main)
