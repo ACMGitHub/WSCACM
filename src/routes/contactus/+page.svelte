@@ -3,7 +3,6 @@
 	import Card from '../../lib/components/Card.svelte';
 </script>
 
-<div class="bg-white">
 	<div class="mx-auto max-w-7xl gap-x-8 gap-y-20">
 		<div class="max-w-2xl">
 			<h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">Contact Us</h2>
@@ -59,6 +58,4 @@
 			/>
 			
 		</div>
-
 	</div>
-</div>
