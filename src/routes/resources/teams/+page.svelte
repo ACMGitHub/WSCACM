@@ -1,9 +1,10 @@
 <script>
 	import { Heading, Hr } from 'flowbite-svelte';
+	import pic1 from "..../static/images/teams/pic1"
 </script>
 
 <div>
-	<Heading tag="h1" class="mb-4" customSize="text-4xl font-extrabold  md:text-5xl lg:text-5xl"
+	<Heading tag="h1" class="mb-4" customSize="text-4xl font-extrabold  md:text-5xl lg:text-5xl text-purple-600"
 		>Microsoft Teams</Heading
 	>
 	<Hr />
@@ -22,6 +23,21 @@
 		people individually or in groups, which helps cut down the amount of emails being sent back and
 		forth.
 	</p>
+	<h2>
+		Installation on PC
+	</h2>
+	<p>
+		Steps
+	</p>
+	<p>
+		You can download teams by clicking the link below
+		<button class="py-4 bg-purple-800">
+			<a href="https://go.microsoft.com/fwlink/?linkid=2281613&clcid=0x409&culture=en-us&country=us">Teams Microsoft</a>
+		</button>
+		<img src={pic1} alt="Download teams" />
+	</p>
+	
+	
 	<p class="pb-4">
 		All Wayne State College Students have access to Teams through their myWSC. To view Teams on your
 		browser all you have to do is log into your <b>myWSC</b>, go to
