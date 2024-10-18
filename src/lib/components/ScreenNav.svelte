@@ -13,14 +13,16 @@
 	const activeClass = 'text-slate-900 bg-slate-100 font-semibold self-center p-1 rounded-md';
 	const dropDownStyle =
 		'w-min p-3 bg-slate-900 space-y-3 text-slate-100 rounded-md text-center text-nowrap list-none';
+
 </script>
 
-<div
-	class="text-slate-100 bg-slate-900 p-4 fixed top-0 left-0 right-0 flex justify-evenly z-10 text-sm md:text-lg"
+<div 
+	class="text-slate-100 bg-slate-900 p-4 fixed top-0 left-0 right-0 flex justify-between z-10 text-sm md:text-lg"
 >
+	<img src= "./images/ACMLogo.png/" alt = "ACM Logo" class="w-36">
 	<a href="{base}/" class={activeUrl == `${base}/` ? activeClass : tabsStyle}>Home</a>
 	<a href="{base}/about" class={activeUrl == `${base}/about` ? activeClass : tabsStyle}>About Us</a>
-	<div
+	<div my-auto
 		class="relative"
 		on:mouseover={() => {
 			committeesHidden = false;
@@ -43,7 +45,7 @@
 			/>
 		</button>
 		{#if !committeesHidden}
-			<div class="absolute -left-12" transition:slide={{ duration: 300, axis: 'y' }}>
+			<div class="absolute -left-12 my-auto" transition:slide={{ duration: 300, axis: 'y' }}>
 				<ul class={dropDownStyle}>
 					<li>
 						<a
@@ -82,7 +84,7 @@
 	<a href="{base}/contactus" class={activeUrl == `${base}/contactus` ? activeClass : tabsStyle}>
 		Contact Us
 	</a>
-	<div
+	<div my-auto
 		class="relative"
 		on:mouseover={() => {
 			resourcesHidden = false;
@@ -106,7 +108,7 @@
 		</button>
 
 		{#if !resourcesHidden}
-			<div class="absolute -left-5">
+			<div class="absolute -left-5 ">
 				<ul class={dropDownStyle} transition:slide={{ duration: 300, axis: 'y' }}>
 					<li>
 						<a
