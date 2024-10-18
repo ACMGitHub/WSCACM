@@ -13,11 +13,13 @@
 	const activeClass = 'text-slate-900 bg-slate-100 font-semibold self-center p-1 rounded-md';
 	const dropDownStyle =
 		'w-min p-3 bg-slate-900 space-y-3 text-slate-100 rounded-md text-center text-nowrap list-none';
+
 </script>
 
 <div
 	class="text-slate-100 bg-slate-900 p-4 fixed top-0 left-0 right-0 flex justify-evenly z-10 text-sm md:text-lg"
 >
+	<img src= "./images/ACMLogo.png/" alt = "ACM Logo" width = "40">
 	<a href="{base}/" class={activeUrl == `${base}/` ? activeClass : tabsStyle}>Home</a>
 	<a href="{base}/about" class={activeUrl == `${base}/about` ? activeClass : tabsStyle}>About Us</a>
 	<div
