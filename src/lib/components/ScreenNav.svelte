@@ -16,13 +16,13 @@
 
 </script>
 
-<div
+<div 
 	class="text-slate-100 bg-slate-900 p-4 fixed top-0 left-0 right-0 flex justify-between z-10 text-sm md:text-lg"
 >
 	<img src= "./images/ACMLogo.png/" alt = "ACM Logo" class="w-36">
 	<a href="{base}/" class={activeUrl == `${base}/` ? activeClass : tabsStyle}>Home</a>
 	<a href="{base}/about" class={activeUrl == `${base}/about` ? activeClass : tabsStyle}>About Us</a>
-	<div
+	<div my-auto
 		class="relative"
 		on:mouseover={() => {
 			committeesHidden = false;
@@ -41,11 +41,11 @@
 			Committees
 			<Icon
 				icon="ep:arrow-down-bold"
-				class="m-1 duration-150 my-auto {committeesHidden ? '-rotate-0' : '-rotate-180'}"
+				class="m-1 duration-150 self-center {committeesHidden ? '-rotate-0' : '-rotate-180'}"
 			/>
 		</button>
 		{#if !committeesHidden}
-			<div class="absolute -left-12" transition:slide={{ duration: 300, axis: 'y' }}>
+			<div class="absolute -left-12 my-auto" transition:slide={{ duration: 300, axis: 'y' }}>
 				<ul class={dropDownStyle}>
 					<li>
 						<a
@@ -84,7 +84,7 @@
 	<a href="{base}/contactus" class={activeUrl == `${base}/contactus` ? activeClass : tabsStyle}>
 		Contact Us
 	</a>
-	<div
+	<div my-auto
 		class="relative"
 		on:mouseover={() => {
 			resourcesHidden = false;
@@ -103,12 +103,12 @@
 			>Resources
 			<Icon
 				icon="ep:arrow-down-bold"
-				class="m-1 duration-150 my-auto {resourcesHidden ? '-rotate-0' : '-rotate-180'}"
+				class="m-1 duration-150 self-center {resourcesHidden ? '-rotate-0' : '-rotate-180'}"
 			/>
 		</button>
 
 		{#if !resourcesHidden}
-			<div class="absolute -left-5">
+			<div class="absolute -left-5 ">
 				<ul class={dropDownStyle} transition:slide={{ duration: 300, axis: 'y' }}>
 					<li>
 						<a
