@@ -17,9 +17,9 @@
 </script>
 
 <div
-	class="text-slate-100 bg-slate-900 p-4 fixed top-0 left-0 right-0 flex justify-evenly z-10 text-sm md:text-lg"
+	class="text-slate-100 bg-slate-900 p-4 fixed top-0 left-0 right-0 flex justify-between z-10 text-sm md:text-lg"
 >
-	<img src= "./images/ACMLogo.png/" alt = "ACM Logo" width = "40">
+	<img src= "./images/ACMLogo.png/" alt = "ACM Logo" class="w-36">
 	<a href="{base}/" class={activeUrl == `${base}/` ? activeClass : tabsStyle}>Home</a>
 	<a href="{base}/about" class={activeUrl == `${base}/about` ? activeClass : tabsStyle}>About Us</a>
 	<div
@@ -41,7 +41,7 @@
 			Committees
 			<Icon
 				icon="ep:arrow-down-bold"
-				class="m-1 duration-150 self-center {committeesHidden ? '-rotate-0' : '-rotate-180'}"
+				class="m-1 duration-150 my-auto {committeesHidden ? '-rotate-0' : '-rotate-180'}"
 			/>
 		</button>
 		{#if !committeesHidden}
@@ -103,7 +103,7 @@
 			>Resources
 			<Icon
 				icon="ep:arrow-down-bold"
-				class="m-1 duration-150 self-center {resourcesHidden ? '-rotate-0' : '-rotate-180'}"
+				class="m-1 duration-150 my-auto {resourcesHidden ? '-rotate-0' : '-rotate-180'}"
 			/>
 		</button>
 
