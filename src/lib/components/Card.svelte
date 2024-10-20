@@ -8,13 +8,13 @@
     export let avatarLink = "#"; // linkedin profile
   </script>
   
-  <div class="flex items-center gap-x-6 shadow-xl p-4 my-2 rounded-lg hover:scale-105 hover:bg-[#0f172ac6] hover:text-white duration-300">
+  <div class="flex items-center gap-x-6 shadow-xl p-4 my-2 rounded-lg group hover:scale-105 hover:bg-[#0f172ac6] duration-300">
     <img src={avatarImage} alt="Imaga of {name}" class="w-16 h-16 rounded-full object-cover" />
     
-    <div>
+    <div class="group-hover:text-white">
       <h3 class="text-base font-semibold leading-7 tracking-tight">{name}</h3>
       <p class="text-sm font-semibold leading-6">{title}</p>
-      <a href="mailto:{email}" class="text-blue-600 hover:underline">{email}</a>
+      <a href="mailto:{email}" class="text-blue-600 group-hover:text-white">{email}</a>
     </div>
 
     <div class="ml-auto">
