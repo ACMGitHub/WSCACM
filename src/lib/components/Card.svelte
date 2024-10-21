@@ -10,13 +10,14 @@
 
 <div
 	class="flex items-center gap-x-6 shadow-xl p-4 my-2 rounded-lg hover:scale-105 hover:bg-[#0f172ac6] hover:text-white duration-300"
+	
 >
 	<img src={avatarImage} alt="Imaga of {name}" class="w-16 h-16 rounded-full object-cover" />
 
 	<div>
 		<h3 class="text-base font-semibold leading-7 tracking-tight">{name}</h3>
 		<p class="text-sm font-semibold leading-6">{title}</p>
-		<a href="mailto:{email}" class="text-blue-600 hover:underline">{email}</a>
+		<a href="mailto:{email}"class= "hover:text-white hover:underline" >{email}</a>
 	</div>
 
 	<div class="ml-auto">

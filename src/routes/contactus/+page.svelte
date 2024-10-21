@@ -50,6 +50,22 @@
 		/>
 
 		<Card
+			name="Ona Mosadi"
+			title="Recrutor"
+			email="onmosa01@wsc.edu"
+			avatarImage="{base}/images/officers/OnaM.jpg"
+			avatarLink="https://www.linkedin.com/in/onalennamosadi1/"
+		/>
+
+		<Card
+			name="Enoch Atuahene"
+			title="Historian"
+			email="enatua01@wsc.edu"
+			avatarImage="{base}/images/officers/EnochA.jpg"
+			avatarLink="https://www.linkedin.com/in/kwameatuahene/"
+		/>
+
+		<Card
 			name="Jeremy Wynia"
 			title="Advisor"
 			email="jewynia1@wsc.edu"
