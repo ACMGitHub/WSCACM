@@ -51,7 +51,7 @@
 
 		<Card
 			name="Ona Mosadi"
-			title="Recrutor"
+			title="Marketing"
 			email="onmosa01@wsc.edu"
 			avatarImage="{base}/images/officers/OnaM.jpg"
 			avatarLink="https://www.linkedin.com/in/onalennamosadi1/"
