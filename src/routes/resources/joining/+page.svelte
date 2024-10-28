@@ -20,6 +20,7 @@
 	<div class="py-4 grid gap-x-4 gap-y-20 md:grid-cols-2 sm:gap-y-16">
 		<div>
 			<p class="text-xl font-bold text-gray-900 sm:text-xl">Steps to join <span>WSC ACM</span>:</p>
+			<br>
 			<List class="list-decimal space-y-4">
 				<Li>
 					Create an account with <a href="https://accounts.acm.org/">myACM</a>: It’s free and gives
@@ -39,17 +40,7 @@
 			</List>
 		</div>
 		<div class="flex items-center">
-			<video
-				src="{base}/images/HowToJoinACM.mp4"
-				alt="Video of How to Join"
-				height="100%"
-				width="700"
-				controls
-				autoplay
-				muted
-			>
-				<track kind="captions" />
-			</video>
+			<img src="{base}/images/HowToJoinACM.gif" alt="How to Join Gif" height="100%" width="700">
 		</div>
 	</div>
 </div>
