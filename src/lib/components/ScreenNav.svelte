@@ -18,7 +18,7 @@
 <div
 	class="text-slate-100 bg-slate-900 px-4 fixed top-0 left-0 right-0 flex justify-between z-10 text-sm md:text-lg"
 >
-	<img src="./images/ACMLogo.png/" alt="ACM Logo" class="w-36" />
+	<img src="../images/ACMLogo.png/" alt="ACM Logo" class="w-36" />
 	<a href="{base}/" class={activeUrl == `${base}/` ? activeClass : tabsStyle}>Home</a>
 	<a href="{base}/about" class={activeUrl == `${base}/about` ? activeClass : tabsStyle}>About Us</a>
 	<div
