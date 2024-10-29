@@ -20,7 +20,7 @@
 	<div class="py-4 grid gap-x-4 gap-y-20 md:grid-cols-2 sm:gap-y-16">
 		<div>
 			<p class="text-xl font-bold text-gray-900 sm:text-xl">Steps to join <span>WSC ACM</span>:</p>
-			<br>
+			<br />
 			<List class="list-decimal space-y-4">
 				<Li>
 					Create an account with <a href="https://accounts.acm.org/">myACM</a>: It’s free and gives
@@ -34,13 +34,13 @@
 				<Li>
 					Attend our <span>ACM</span> meetings: Check the
 					<a href="{base}/meetingtimes">Meeting Times</a>
-					page for more information. If our meeting times don't work with you, you can still
-					participate in <span>ACM</span> with our subcommittees.
+					page for more information. If our meeting times don't work with you, you can still participate
+					in <span>ACM</span> with our subcommittees.
 				</Li>
 			</List>
 		</div>
 		<div class="flex items-center">
-			<img src="{base}/images/HowToJoinACM.gif" alt="How to Join Gif" height="100%" width="700">
+			<img src="{base}/images/HowToJoinACM.gif" alt="How to Join Gif" height="100%" width="700" />
 		</div>
 	</div>
 </div>
