@@ -17,7 +17,7 @@
 		but it does help the club afford T-shirts and equipment.
 	</p>
 
-	<div class="py-4 grid gap-x-4 gap-y-20 md:grid-cols-2 sm:gap-y-16">
+	<div class="md:w-/2 py-4 md:flex md:justify-between">
 		<div>
 			<p class="text-xl font-bold text-gray-900 sm:text-xl">Steps to join <span>WSC ACM</span>:</p>
 			<br />
@@ -39,7 +39,7 @@
 				</Li>
 			</List>
 		</div>
-		<div class="flex items-center">
+		<div>
 			<img src="{base}/images/HowToJoinACM.gif" alt="How to Join Gif" height="100%" width="700" />
 		</div>
 	</div>
