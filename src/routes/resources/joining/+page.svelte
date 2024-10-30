@@ -17,8 +17,8 @@
 		but it does help the club afford T-shirts and equipment.
 	</p>
 
-	<div class="md:w-/2 py-4 md:flex md:justify-between">
-		<div>
+	<div class="py-4 md:flex md:justify-between">
+		<div class="md:w-1/2">
 			<p class="text-xl font-bold text-gray-900 sm:text-xl">Steps to join <span>WSC ACM</span>:</p>
 			<br />
 			<List class="list-decimal space-y-4">
