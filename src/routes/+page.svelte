@@ -3,14 +3,14 @@
 
 	const images = [
 		{ alt: 'place holder', src: 'images/none_specific/2024_2025/clubFair.jpeg' },
-		{ alt: 'place holder', src: 'images/none_specific/2023_2024/IMG_4477.JPG' },
-		{ alt: 'place holder', src: 'images/none_specific/2023_2024/IMG_4480.JPG' },
-		{ alt: 'place holder', src: 'images/none_specific/2023_2024/IMG_4552.jpg' },
-		{ alt: 'place holder', src: 'images/none_specific/2023_2024/IMG_4556.jpg' },
-		{ alt: 'place holder', src: 'images/none_specific/2023_2024/IMG_4641.jpg' },
-		{ alt: 'place holder', src: 'images/none_specific/2023_2024/IMG_4672.jpg' },
-		{ alt: 'place holder', src: 'images/none_specific/2023_2024/IMG_4673.jpg' },
-		{ alt: 'place holder', src: 'images/none_specific/2023_2024/IMG_4686.jpg' }
+		{ alt: 'place holder', src: 'images/none_specific/2024_2025/bm3.jpeg' },
+		{ alt: 'place holder', src: 'images/none_specific/2024_2025/IMG_2382.jpeg' },
+		{ alt: 'place holder', src: 'images/none_specific/2024_2025/IMG_2389.jpeg' },
+		{ alt: 'place holder', src: 'images/none_specific/2024_2025/IMG_2400.jpeg' },
+		{ alt: 'place holder', src: 'images/none_specific/2024_2025/bm1.jpeg' },
+		{ alt: 'place holder', src: 'images/none_specific/2024_2025/dqcheck.jpeg' },
+		{ alt: 'place holder', src: 'images/none_specific/2024_2025/chaosturn.jpg' },
+		{ alt: 'place holder', src: 'images/none_specific/2024_2025/bm5.jpeg' }
 	];
 </script>
 

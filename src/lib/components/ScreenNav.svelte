@@ -9,19 +9,21 @@
 
 	$: activeUrl = $page.url.pathname; //this gets the page route which we use to style
 	const tabsStyle =
-		'font-semibold transition duration-300 p-1 self-center rounded-md hover:text-slate-900 hover:bg-slate-100';
-	const activeClass = 'text-slate-900 bg-slate-100 font-semibold self-center p-1 rounded-md';
+		'font-semibold my-auto transition duration-300 p-1 self-center rounded-md hover:text-slate-900 hover:bg-slate-100';
+	const activeClass = 'text-slate-900 bg-slate-100 my-auto font-semibold self-center p-1 rounded-md';
 	const dropDownStyle =
-		'w-min p-3 bg-slate-900 space-y-3 text-slate-100 rounded-md text-center text-nowrap list-none';
+		'w-min p-3 bg-slate-900 space-y-3 text-slate-100 my-auto rounded-md text-center text-nowrap list-none';
 </script>
 
 <div
-	class="text-slate-100 bg-slate-900 p-4 fixed top-0 left-0 right-0 flex justify-evenly z-10 text-sm md:text-lg"
+	class="text-slate-100 bg-slate-900 px-4 fixed top-0 left-0 right-0 flex justify-between z-10 text-sm md:text-lg"
 >
+	<img src="../images/ACMLogo.png/" alt="ACM Logo" class="w-36" />
 	<a href="{base}/" class={activeUrl == `${base}/` ? activeClass : tabsStyle}>Home</a>
 	<a href="{base}/about" class={activeUrl == `${base}/about` ? activeClass : tabsStyle}>About Us</a>
 	<div
-		class="relative"
+		
+		class="relative my-auto"
 		on:mouseover={() => {
 			committeesHidden = false;
 		}}
@@ -43,7 +45,7 @@
 			/>
 		</button>
 		{#if !committeesHidden}
-			<div class="absolute -left-12" transition:slide={{ duration: 300, axis: 'y' }}>
+			<div class="absolute -left-14 my-auto" transition:slide={{ duration: 300, axis: 'y' }}>
 				<ul class={dropDownStyle}>
 					<li>
 						<a
@@ -83,7 +85,7 @@
 		Contact Us
 	</a>
 	<div
-		class="relative"
+		class="relative my-auto"
 		on:mouseover={() => {
 			resourcesHidden = false;
 		}}
@@ -106,7 +108,7 @@
 		</button>
 
 		{#if !resourcesHidden}
-			<div class="absolute -left-5">
+			<div class="absolute -left-7">
 				<ul class={dropDownStyle} transition:slide={{ duration: 300, axis: 'y' }}>
 					<li>
 						<a
