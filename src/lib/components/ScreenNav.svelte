@@ -14,7 +14,7 @@
 	const dropDownStyle =
 		'w-min p-3 bg-slate-900 space-y-3 text-slate-100 my-auto rounded-md text-center text-nowrap list-none';
 </script>
-
+ 
 <div
 	class="text-slate-100 bg-slate-900 px-4 fixed top-0 left-0 right-0 flex justify-between z-10 text-sm md:text-lg"
 >
