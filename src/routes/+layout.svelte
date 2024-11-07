@@ -18,7 +18,7 @@
 
 <svelte:window bind:innerWidth />
 
-{#if innerWidth >= 570}
+{#if innerWidth >= 840}
 	<ScreenNav />
 {:else}
 	<PhoneNav />
