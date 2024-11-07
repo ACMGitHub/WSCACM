@@ -31,6 +31,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource-variable/changa": "^5.1.0",
 		"flowbite-svelte-icons": "^1.6.1"
 	}
 }

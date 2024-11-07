@@ -1,6 +1,7 @@
 <script>
 	import { Heading, Img, P } from 'flowbite-svelte';
 	import { base } from '$app/paths';
+	
 </script>
 
 <div>
@@ -37,7 +38,7 @@
 		<p>
 			Unlike other clubs, <b>our club does a committee system</b> where you can work in small groups
 			with projects more suited for you. We have committees such as the
-			<b>Project Committee, Robotics Committee, Wedsite Committee, and Competitive Programming</b>.
+			<b>Project Committee, Robotics Committee, Website Committee, and Competitive Programming</b>.
 			These committees are ran by student members with the intent for students to make their their
 			own impact on campus. If you have an idea for a project, we are here to back you up on
 			whatever you want to do. If they are you're looking for computers, friendship, business,
