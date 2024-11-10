@@ -43,7 +43,9 @@
 				4. Launch <b>Microsoft Teams</b> and sign in with your <b>Wayne State College</b> account
 			</p>
 		</div>
-		<div></div>
+		<div>
+			<img src="/images/teams 1.gif"/>
+		</div>
 	</div>
 </div>
 
