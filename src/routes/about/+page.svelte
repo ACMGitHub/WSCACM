@@ -2,19 +2,6 @@
 	import { Heading, Img } from 'flowbite-svelte';
 	import { base } from '$app/paths';
 	import { fly } from 'svelte/transition';
-
-	let visible = true;
-
-	function fadeSlide(node, options) {
-		const slideTrans = slide(node, options);
-		return {
-			duration: options.duration,
-			css: (t) => `
-				${slideTrans.css(t)}
-				opacity: ${t};
-			`
-		};
-	}
 </script>
 
 <div class="">
