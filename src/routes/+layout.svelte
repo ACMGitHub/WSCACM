@@ -26,7 +26,11 @@
 
 <div class="overview-hidden bg-[url(/images/circuit-board.jpeg)] bg-fixed bg-center bg-cover">
 	<div class="my-24 lg:my-40">
-		<Img src="{base}/images/ACMLogo.png" alt="ACM Banner" class="w-1/2 md:w-1/4 mx-auto brightness-100" />
+		<Img
+			src="{base}/images/ACMLogo.png"
+			alt="ACM Banner"
+			class="w-1/2 md:w-1/4 mx-auto brightness-100"
+		/>
 
 		<Heading
 			tag="h1"

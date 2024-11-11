@@ -1,5 +1,5 @@
 <script>
-	import { Gallery} from 'flowbite-svelte';
+	import { Gallery } from 'flowbite-svelte';
 
 	const images = [
 		{ alt: 'place holder', src: 'images/none_specific/2024_2025/clubFair.jpeg' },

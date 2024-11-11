@@ -1,54 +1,46 @@
 <script>
-	import { Heading, Img, P } from 'flowbite-svelte';
+	import { Heading, Img } from 'flowbite-svelte';
 	import { base } from '$app/paths';
-	
+	import { fly } from 'svelte/transition';
 </script>
 
 <div>
-	<Heading tag="h1" class="mb-4" customSize="text-4xl font-extrabold  md:text-5xl lg:text-5xl"
-		>About Us</Heading
-	>
-	<div class='space-y-4'>
-		<p>
-			Wayne State College ACM club is a <b>student chapter</b> affiliated with the international ACM
-			organization. Before we describe more about WSC ACM Student chapter, we would like to describe
-			what the international ACM organization is.
+	<div class="2xl:flex 2xl:justify-between space-x-4 pb-4">
+		<div class="space-y-4 2xl:w-1/2 pb-4">
+			<Heading tag="h2" customSize="text-2xl font-extrabold md:text-3xl lg:text-3xl"
+				>What is WSC ACM?</Heading
+			>
+			<p class="3xl:text-lg">
+				The <b>Wayne State College ACM chapter</b> is a student group affiliated with the international
+				ACM, a nonprofit organization that connects computing educators, researchers, and professionals
+				worldwide. Headquartered in New York, ACM is the largest scientific and educational computing
+				association globally.
+			</p>
+			<p class="italic 3xl:text-lg">
+				The organization has about 100,000 student as well as professional members from all around
+				the world. ACM organization offers $1.5 million in scholarships. There are different ACM
+				conferences, research opportunities, competitions, webinars, and other educational and
+				informational events open to the organization's members which are sponsored by ACM, colleges
+				that participate in ACM, and by different Tech companies like Microsoft and Google.
+			</p>
+		</div>
+		<div class="2xl:w-1/2" in:fly={{ x: 200, duration: 2000 }}>
+			<Img
+				src="{base}/images/none_specific/2023_2024/groupPic.jpeg"
+				alt="2024 ACM group picture"
+				alignment="ms-auto"
+				class="rounded-2xl shadow-xl"
+			/>
+		</div>
+	</div>
+	<div class="space-y-4">
+		<Heading tag="h2" customSize="text-2xl font-extrabold md:text-3xl lg:text-3xl">Mission:</Heading
+		>
+		<p class="3xl:text-lg">
+			Our goal with the club is to prepare members with tools and skills that can be used in their
+			future careers. We accept anyone interested in learning more about computer science and
+			computer information systems. By joining, students can establish connections with like-minded
+			people and participate in activities that are both fun and applicable.
 		</p>
-		<p>
-			<b>The international ACM organization</b> is non-profit academic and scholarly organization aimed
-			at connecting computing educators, researchers and professionals from around the globe. Headquartered
-			in New-York, ACM is acknowledged as the world's largest scientific and educational computing association.
-		</p>
-		<p class="text-center italic">
-			The organization has about 100,000 student as well as professional members from all around the
-			world. ACM organization offers $1.5 million in scholarships.
-		</p>
-		<p class="text-center italic">
-			There are different ACM conferences, research opportunities, competitions, webinars, and other
-			educational and informational events open to the organization's members which are sponsored by
-			ACM, colleges that participate in ACM, and by different Tech companies like Microsoft and
-			Google.
-		</p>
-		<p>
-			<b>Now, more about us!</b> WSC ACM Student Chapter has purposes and aims similar to the international
-			ACM organization as explained on the above paragraph. Our local chapter is an educational and fun
-			club. Our club focuses on all things technology and computers, however, students don't need to
-			be good with computers to enjoy our club.
-		</p>
-		<p>
-			Unlike other clubs, <b>our club does a committee system</b> where you can work in small groups
-			with projects more suited for you. We have committees such as the
-			<b>Project Committee, Robotics Committee, Website Committee, and Competitive Programming</b>.
-			These committees are ran by student members with the intent for students to make their their
-			own impact on campus. If you have an idea for a project, we are here to back you up on
-			whatever you want to do. If they are you're looking for computers, friendship, business,
-			design, or fresh ideas, this is the club for you.
-		</p>
-		<p>
-			<b>Our goal</b> with the club is to have everyone to leave our club knowing a little more than
-			before, establishing good connections with professionals and other students, and having students
-			something to put on their resume.
-		</p>
-		<Img src="{base}/images/none_specific/2023_2024/groupPic.jpeg" alt="2024 ACM group picture" />
 	</div>
 </div>
