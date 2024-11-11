@@ -4,7 +4,7 @@
 </script>
 
 <div class="space-y-4">
-	<Heading tag="h1" class="mb-4" customSize="text-4xl font-extrabold  md:text-5xl lg:text-5xl"
+	<Heading tag="h1" class="mb-4" customSize="text-4xl font-extrabold md:text-5xl lg:text-5xl"
 		>How to Join</Heading
 	>
 	<Hr />
