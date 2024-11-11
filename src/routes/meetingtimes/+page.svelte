@@ -26,5 +26,3 @@
 	scrolling="no"
 	class="md:m-auto lg:m-auto w-full h-screen"
 ></iframe>
-
-<!-- Racoon -->
