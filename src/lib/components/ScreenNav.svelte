@@ -10,7 +10,8 @@
 	$: activeUrl = $page.url.pathname; //this gets the page route which we use to style
 	const tabsStyle =
 		'font-semibold my-auto transition duration-300 p-1 self-center rounded-md hover:text-slate-900 hover:bg-slate-100';
-	const activeClass = 'text-slate-900 bg-slate-100 my-auto font-semibold self-center p-1 rounded-md';
+	const activeClass =
+		'text-slate-900 bg-slate-100 my-auto font-semibold self-center p-1 rounded-md';
 	const dropDownStyle =
 		'w-min p-3 bg-slate-900 space-y-3 text-slate-100 my-auto rounded-md text-center text-nowrap list-none';
 </script>
@@ -18,11 +19,10 @@
 <div
 	class="text-slate-100 bg-slate-900 px-4 fixed top-0 left-0 right-0 flex justify-between z-10 text-sm md:text-lg"
 >
-	<img src="images/ACMLogo.png" alt="ACM Logo" class="w-36" />
+	<img src="{base}/images/ACMLogo.png" alt="ACM Logo" class="w-36" />
 	<a href="{base}/" class={activeUrl == `${base}/` ? activeClass : tabsStyle}>Home</a>
 	<a href="{base}/about" class={activeUrl == `${base}/about` ? activeClass : tabsStyle}>About Us</a>
 	<div
-		
 		class="relative my-auto"
 		on:mouseover={() => {
 			committeesHidden = false;
