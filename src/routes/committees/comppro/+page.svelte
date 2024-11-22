@@ -12,7 +12,9 @@
 	Competitions can either be a group competition or individual competition. This gives you the
 	opportunity to show off your programming skills and train your way of thinking.
 </p>
-<Heading tag="h3" class="text-center" customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
+<div class="flex flex-row gap-x-6">
+<div class="flex-1">
+<Heading tag="h3" class="text-align-left" customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
 	>Rules
 </Heading>
 <!-- for some reason list-disc only needs to be in one spot for there to be bullet points -->
@@ -21,7 +23,9 @@
 	<li>Any one within ACM is allowed to participate.</li>
 	<li>Be respectable to others and their skill level.</li>
 </ul>
-<Heading tag="h3" class="text-center" customSize="text-lg font-extrabold m-4  md:text-xl lg:text-xl"
+</div>
+<div class="flex-1 justify-between">
+<Heading tag="h3" class="text-align-left" customSize="text-lg font-extrabold m-4  md:text-xl lg:text-xl"
 	>Recommendations
 </Heading>
 <ul>
@@ -35,7 +39,9 @@
 		practice.
 	</li>
 </ul>
-<Heading tag="h3" class="text-center" customSize="text-lg font-extrabold m-4  md:text-xl lg:text-xl"
+</div>
+</div>
+<Heading tag="h3" class="text-align-left" customSize="text-lg font-extrabold m-4  md:text-xl lg:text-xl"
 	>Resources
 </Heading>
 <ul>
