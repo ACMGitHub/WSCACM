@@ -13,7 +13,9 @@
 	hardware, web development, networking, etc. Every Show-and-Tell night project committee will be
 	asked to update on their progress of their project, this helps add some accountability.
 </p>
-<Heading tag="h3" class="text-center" customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
+<div class="flex flex-row gap-x-6">
+<div class="flex-1">
+<Heading tag="h3" class="text-align-left" customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
 	>Rules
 </Heading>
 <!-- for some reason list-disc only needs to be in one spot for there to be bullet points -->
@@ -33,8 +35,10 @@
 	</Li>
 	<Li>A project leader to keep the project on track and organized.</Li>
 </List>
+</div>
+<div class="flex-1">
 <!-- Bird -->
-<Heading tag="h3" class="text-center" customSize="text-lg font-extrabold m-4  md:text-xl lg:text-xl"
+<Heading tag="h3" class="text-align-left" customSize="text-lg font-extrabold m-4  md:text-xl lg:text-xl"
 	>Recommendations
 </Heading>
 <List tag="ul" list="disc" class="space-y-1 ps-5">
@@ -43,3 +47,5 @@
 	<Li>Meet weekly or biweekly to discuss website plans.</Li>
 	<Li>Find a time that works with all of you to meet up to discuss, work, plan, update, etc...</Li>
 </List>
+</div>
+</div>
