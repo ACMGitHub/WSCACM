@@ -13,7 +13,7 @@
 	hardware, web development, networking, etc. Every Show-and-Tell night project committee will be
 	asked to update on their progress of their project, this helps add some accountability.
 </p>
-<div class="flex flex-row gap-x-6">
+<div class="flex flex-col md:flex-row gap-x-6">
 <div class="flex-1">
 <Heading tag="h3" class="text-align-left" customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
 	>Rules
