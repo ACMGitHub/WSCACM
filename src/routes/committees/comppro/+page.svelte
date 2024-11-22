@@ -12,7 +12,7 @@
 	Competitions can either be a group competition or individual competition. This gives you the
 	opportunity to show off your programming skills and train your way of thinking.
 </p>
-<div class="flex flex-row gap-x-6">
+<div class="flex flex-col md:flex-row gap-x-6">
 <div class="flex-1">
 <Heading tag="h3" class="text-align-left" customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
 	>Rules
