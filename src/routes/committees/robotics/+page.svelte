@@ -13,7 +13,7 @@
 	additional components like Arduinos, motors, chains, etc. As of now do don't do competitions as we
 	believe students will get more enjoyment out of it by being able to explore themselves.
 </p>
-<div class="flex-row flex gap-x-6">
+<div class="flex-col flex gap-x-6 md:flex-row">
 	<div class="flex-1">
 <Heading tag="h3" class="text-align-left" customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
 	>Rules
