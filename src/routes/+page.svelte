@@ -17,9 +17,9 @@
 	</div>
 
 	<div class="md:col-span-2 justify-between px-4">
-		<div class="w-full">
+		<div class="w-full lg:px-44">
 			<Carousel
-				class="flex h-[450px] justify-center items-center object-cover"
+				class="flex h-[450px] rounded-3xl justify-center items-center"
 				{images}
 				duration="7000"
 				let:Controls
