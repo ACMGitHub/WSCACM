@@ -4,7 +4,7 @@
 	import { fly } from 'svelte/transition';
 </script>
 
-<div class="">
+<div class="mx-12 md:mx-24 lg:mx-36">
 	<div class="2xl:flex 2xl:justify-between space-x-4 pb-4">
 		<div class="space-y-4 2xl:w-1/2 pb-4">
 			<Heading tag="h2" customSize="text-2xl font-extrabold md:text-3xl lg:text-3xl"
