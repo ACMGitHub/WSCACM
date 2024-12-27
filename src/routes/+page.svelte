@@ -16,7 +16,7 @@
 		</Heading>
 	</div>
 
-	<div class="md:col-span-2 justify-between px-4 pb-10">
+	<div class="md:col-span-2 justify-between">
 		<div class="w-full lg:px-44">
 			<Carousel
 				class="flex h-[550px] justify-center items-center"
@@ -29,7 +29,7 @@
 				<Indicators />
 			</Carousel>
 		</div>
-		<p class="text-center text-xl py-20">
+		<p class="text-center text-xl py-10">
 			WSC ACM Student Chapter offers the opportunity to meet peers and experts in many fields of
 			interest. With a world-wide membership, ACM is a leading resource for computing professional
 			and students working in various fields of information technology.
