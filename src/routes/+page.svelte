@@ -4,7 +4,7 @@
 	import images from '../routes/images.json';
 </script>
 
-<div class="grid md:grid-cols-3 gap-8 px-4">
+<div class="grid md:grid-cols-3 gap-8">
 	<div class="bg-[url(/images/circuit-board.jpeg)] bg-fixed bg-center">
 		<Img src="{base}/images/ACMLogo.png" alt="ACM Banner" />
 
