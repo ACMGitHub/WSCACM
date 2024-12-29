@@ -4,16 +4,15 @@
 	import images from '../routes/images.json';
 </script>
 
-<div class="grid md:grid-cols-3 gap-8">
-	<div class="bg-[url(/images/circuit-board.jpeg)] bg-fixed bg-center">
-		<Img src="{base}/images/ACMLogo.png" alt="ACM Banner" />
+<div class="grid md:grid-cols-3 -my-8">
+	<div class="bg-[url(/images/circuit-board.jpeg)] bg-fixed bg-center flex flex-col items-center justify-center">	
+		<img src="{base}/images/ACMLogo.png" alt="ACM Banner" class='w-4/5'/>
 
-		<Heading
-			tag="h2"
-			class="text-2xl font font-extrabold md:text-3xl lg:text:4xl text-slate-100 text-center"
+		<h2
+			class="pb-8 text-2xl font font-extrabold md:text-3xl lg:text:4xl text-slate-100 text-center"
 		>
 			Where ALL WSC Students are Welcome!
-		</Heading>
+	</h2>
 	</div>
 
 	<div class="md:col-span-2 justify-between z-0">
@@ -25,7 +24,7 @@
 				let:Controls
 				let:Indicators
 			>
-				<Controls class="px-10"/>
+				<Controls class="px-10" />
 				<Indicators />
 			</Carousel>
 		</div>
