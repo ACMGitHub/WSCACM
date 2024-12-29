@@ -16,7 +16,7 @@
 		</Heading>
 	</div>
 
-	<div class="md:col-span-2 justify-between">
+	<div class="md:col-span-2 justify-between z-0">
 		<div class="w-full lg:px-44">
 			<Carousel
 				class="flex h-[550px] justify-center items-center"
