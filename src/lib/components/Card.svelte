@@ -4,8 +4,8 @@
 	export let name = 'Name';
 	export let title = 'Position';
 	export let email = 'name@email.com';
-	export let avatarImage = '#'; // avatar image
-	export let avatarLink = '#'; // linkedin profile
+	export let avatarImage = ''; // avatar image
+	export let avatarLink = ''; // linkedin profile
 </script>
 
 <div
@@ -19,13 +19,15 @@
 		<a href="mailto:{email}" class="hover:text-white hover:underline">{email}</a>
 	</div>
 
-	<div class="ml-auto">
-		<a href={avatarLink} target="_blank">
-			<img
-				src="{base}/images/linkedin.png"
-				alt={'Linkedin'}
-				class="ml-auto w-10 h-10 rounded-full object-cover"
-			/>
-		</a>
-	</div>
+	{#if avatarLink != ''}
+		<div class="ml-auto">
+			<a href={avatarLink} target="_blank">
+				<img
+					src="{base}/images/linkedin.png"
+					alt={'Linkedin'}
+					class="ml-auto w-10 h-10 rounded-full object-cover"
+				/>
+			</a>
+		</div>
+	{/if}
 </div>
