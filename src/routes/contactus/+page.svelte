@@ -45,8 +45,8 @@
 			name="Rafael Negrete Fonseca"
 			title="Treasurer"
 			email="ranegr01@wsc.edu"
-			avatarImage="{base}/images/officers/no-profile.png"
-			avatarLink=""
+			avatarImage="{base}/images/officers/RafN.jpg"
+			avatarLink="https://www.linkedin.com/in/rafael-negrete-88b042299/"
 		/>
 
 		<Card
