@@ -4,7 +4,7 @@
 	export let name = 'Name';
 	export let title = 'Position';
 	export let email = 'name@email.com';
-	export let avatarImage = ''; // avatar image
+	export let avatarImage = `${base}/images/officers/no-profile.png`; // avatar image
 	export let avatarLink = ''; // linkedin profile
 </script>
 
