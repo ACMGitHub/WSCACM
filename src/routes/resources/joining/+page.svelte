@@ -3,7 +3,7 @@
 	import { base } from '$app/paths';
 </script>
 
-<div class="space-y-4">
+<div class="space-y-4 mx-12 md:mx-24 lg:mx-36">
 	<Heading tag="h1" class="mb-4" customSize="text-4xl font-extrabold md:text-5xl lg:text-5xl"
 		>How to Join</Heading
 	>

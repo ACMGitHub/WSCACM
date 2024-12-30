@@ -108,7 +108,7 @@
 		</button>
 
 		{#if !resourcesHidden}
-			<div class="absolute -left-7">
+			<div class="absolute -left-10">
 				<ul class={dropDownStyle} transition:slide={{ duration: 300, axis: 'y' }}>
 					<li>
 						<a

@@ -13,9 +13,7 @@
 	additional components like Arduinos, motors, chains, etc. As of now do don't do competitions as we
 	believe students will get more enjoyment out of it by being able to explore themselves.
 </p>
-<div class="flex-row flex gap-x-6">
-	<div class="flex-1">
-<Heading tag="h3" class="text-align-left" customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
+<Heading tag="h3" class="text-center" customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
 	>Rules
 </Heading>
 <!-- for some reason list-disc only needs to be in one spot for there to be bullet points -->
@@ -38,9 +36,7 @@
 	<Li>Don't break or take apart already made equipment in the lab.</Li>
 	<Li>Make sure Dr. Curnyn knows that the lab is being used.</Li>
 </List>
-	</div>
-	<div class="flex-1">
-<Heading tag="h3" class="text-align-left" customSize="text-lg font-extrabold m-4  md:text-xl lg:text-xl"
+<Heading tag="h3" class="text-center" customSize="text-lg font-extrabold m-4  md:text-xl lg:text-xl"
 	>Recommendations
 </Heading>
 <List tag="ul" list="disc" class="space-y-1 ps-5">
@@ -51,5 +47,3 @@
 	>
 	<Li>Have a engineers journal to keep track of progress.</Li>
 </List>
-	</div>
-</div>

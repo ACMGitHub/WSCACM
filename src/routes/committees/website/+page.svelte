@@ -13,9 +13,7 @@
 	right in. In the Website Committee you'll learn skills like team work, proper website design, user
 	interactivity, and the importance of code review.
 </p>
-<div class="flex-col flex gap-x-6 md:flex-row">
-	<div class="flex-1">
-<Heading tag="h3" class="text-align-left" customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
+<Heading tag="h3" class="text-center" customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
 	>Rules
 </Heading>
 <!-- for some reason list-disc only needs to be in one spot for there to be bullet points -->
@@ -31,9 +29,7 @@
 	<Li>Reupload the old site only if the current site has issues.</Li>
 	<Li>Everyone has to have a GitHub account.</Li>
 </List>
-	</div>
-	<div class="flex-1">
-<Heading tag="h3" class="text-align-left" customSize="text-lg font-extrabold m-4  md:text-xl lg:text-xl"
+<Heading tag="h3" class="text-center" customSize="text-lg font-extrabold m-4  md:text-xl lg:text-xl"
 	>Recommendations
 </Heading>
 <List tag="ul" list="disc" class="space-y-1 ps-5">
@@ -45,8 +41,6 @@
 	</Li>
 	<Li>Have common a goal and outline for a feature to be completed.</Li>
 </List>
-</div>
-</div>
 <Heading tag="h3" class="text-center" customSize="text-lg font-extrabold m-4  md:text-xl lg:text-xl"
 	>Resources
 </Heading>
@@ -56,7 +50,7 @@
 	<Li><a href="https://flowbite-svelte.com/">Flowbite Svelte</a></Li>
 	<Li><a href="https://github.com/">GitHub</a></Li>
 </List>
-	
+
 <style>
 	a {
 		color: rgb(30 58 138);

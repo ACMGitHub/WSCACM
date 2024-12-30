@@ -31,6 +31,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource-variable/jetbrains-mono": "^5.1.1",
 		"flowbite-svelte-icons": "^1.6.2"
 	}
 }
