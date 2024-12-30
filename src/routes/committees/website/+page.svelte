@@ -25,7 +25,6 @@
 				customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
 				>Rules
 			</Heading>
-			<!-- for some reason list-disc only needs to be in one spot for there to be bullet points -->
 			<List tag="ul" list="disc" class="ps-5 space-y-1">
 				<Li
 					>There needs to be one project leader that is in charge of organizing and reviewing any
@@ -33,7 +32,6 @@
 				>
 				<Li>A basic level of how GitHub works before writing any code.</Li>
 				<Li>Branches should be based on features.</Li>
-				<!-- Dog -->
 				<Li>Keep to the color scheme.</Li>
 				<Li>Reupload the old site only if the current site has issues.</Li>
 				<Li>Everyone has to have a GitHub account.</Li>
