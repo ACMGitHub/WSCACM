@@ -13,34 +13,46 @@
 	right in. In the Website Committee you'll learn skills like team work, proper website design, user
 	interactivity, and the importance of code review.
 </p>
-<Heading tag="h3" class="text-center" customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
-	>Rules
-</Heading>
-<!-- for some reason list-disc only needs to be in one spot for there to be bullet points -->
-<List tag="ul" list="disc" class="ps-5 space-y-1">
-	<Li
-		>There needs to be one project leader that is in charge of organizing and reviewing any changes
-		to the site.</Li
-	>
-	<Li>A basic level of how GitHub works before writing any code.</Li>
-	<Li>Branches should be based on features.</Li>
-	<!-- Dog -->
-	<Li>Keep to the color scheme.</Li>
-	<Li>Reupload the old site only if the current site has issues.</Li>
-	<Li>Everyone has to have a GitHub account.</Li>
-</List>
-<Heading tag="h3" class="text-center" customSize="text-lg font-extrabold m-4  md:text-xl lg:text-xl"
-	>Recommendations
-</Heading>
-<List tag="ul" list="disc" class="space-y-1 ps-5">
-	<Li>Meet weekly or biweekly to discuss website plans.</Li>
-	<Li>Understanding of HTML, JavaScript, and CSS.</Li>
-	<Li
-		>Anyone new to web development, SvelteKit, or Tailwindcss should only make small changes like
-		updating or adding photos.
-	</Li>
-	<Li>Have common a goal and outline for a feature to be completed.</Li>
-</List>
+<div class="flex-col flex gap-x-6 md:flex-row">
+	<div class="flex-1">
+		<Heading
+			tag="h3"
+			class="text-align-left"
+			customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
+			>Rules
+		</Heading>
+		<!-- for some reason list-disc only needs to be in one spot for there to be bullet points -->
+		<List tag="ul" list="disc" class="ps-5 space-y-1">
+			<Li
+				>There needs to be one project leader that is in charge of organizing and reviewing any
+				changes to the site.</Li
+			>
+			<Li>A basic level of how GitHub works before writing any code.</Li>
+			<Li>Branches should be based on features.</Li>
+			<!-- Dog -->
+			<Li>Keep to the color scheme.</Li>
+			<Li>Reupload the old site only if the current site has issues.</Li>
+			<Li>Everyone has to have a GitHub account.</Li>
+		</List>
+	</div>
+	<div class="flex-1">
+		<Heading
+			tag="h3"
+			class="text-align-left"
+			customSize="text-lg font-extrabold m-4  md:text-xl lg:text-xl"
+			>Recommendations
+		</Heading>
+		<List tag="ul" list="disc" class="space-y-1 ps-5">
+			<Li>Meet weekly or biweekly to discuss website plans.</Li>
+			<Li>Understanding of HTML, JavaScript, and CSS.</Li>
+			<Li
+				>Anyone new to web development, SvelteKit, or Tailwindcss should only make small changes
+				like updating or adding photos.
+			</Li>
+			<Li>Have common a goal and outline for a feature to be completed.</Li>
+		</List>
+	</div>
+</div>
 <Heading tag="h3" class="text-center" customSize="text-lg font-extrabold m-4  md:text-xl lg:text-xl"
 	>Resources
 </Heading>
