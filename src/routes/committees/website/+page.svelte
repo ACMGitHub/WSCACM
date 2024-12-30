@@ -51,10 +51,10 @@
 	>Resources
 </Heading>
 <List tag="ul" list="disc" class="space-y-1 ps-5">
-	<Li><a href='https://kit.svelte.dev/'>SvelteKit</a></Li>
-	<Li><a href='https://tailwindcss.com/'>Tailwindcss</a></Li>
-	<Li><a href='https://flowbite-svelte.com/'>Flowbite Svelte</a></Li>
-	<Li><a href='https://github.com/'>GitHub</a></Li>
+	<Li><a href="https://kit.svelte.dev/">SvelteKit</a></Li>
+	<Li><a href="https://tailwindcss.com/">Tailwindcss</a></Li>
+	<Li><a href="https://flowbite-svelte.com/">Flowbite Svelte</a></Li>
+	<Li><a href="https://github.com/">GitHub</a></Li>
 </List>
 	
 <style>
