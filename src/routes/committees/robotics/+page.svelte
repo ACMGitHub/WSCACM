@@ -25,7 +25,6 @@
 				customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
 				>Rules
 			</Heading>
-			<!-- for some reason list-disc only needs to be in one spot for there to be bullet points -->
 			<List tag="ul" list="disc" class="ps-5 space-y-1">
 				<Li
 					>The students in the robotics committee will need Dr. Curnyn's permission to use the lab

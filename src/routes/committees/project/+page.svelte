@@ -26,7 +26,6 @@
 				customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
 				>Rules
 			</Heading>
-			<!-- for some reason list-disc only needs to be in one spot for there to be bullet points -->
 			<List tag="ul" list="disc" class="ps-5 space-y-1">
 				<Li>Requirements of a project depend on said project.</Li>
 				<Li
@@ -45,7 +44,6 @@
 			</List>
 		</div>
 		<div class="flex-1">
-			<!-- Bird -->
 			<Heading
 				tag="h3"
 				class="text-align-left"

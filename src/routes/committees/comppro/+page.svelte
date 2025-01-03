@@ -25,7 +25,6 @@
 				customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
 				>Rules
 			</Heading>
-
 			<List tag="ul" list="disc" class="ps-5 space-y-1">
 				<Li
 					>At least one team captian to hold practices and look for competitions to participate in.</Li
