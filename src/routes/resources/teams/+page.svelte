@@ -8,7 +8,6 @@
 		>Microsoft Teams</Heading
 	>
 	<Hr />
-
 	<p>
 		If you are joining ACM it is recommended that you download Teams on your computer or phone as a
 		majority of special updates and messages will presented there. All Wayne State College students
@@ -18,6 +17,7 @@
 	<div class="space-y-4 2xl:flex 2xl:justify-between">
 		<div class="2xl:w-1/2">
 			<p class="text-xl font-bold text-gray-900 sm:text-xl">To view Teams on browser:</p>
+			<br />
 			<List class="list-decimal space-y-2 pb-4">
 				<Li>
 					Log into your <a href="https://www.wsc.edu/mywsc" target="blank">myWSC</a> account
@@ -36,6 +36,7 @@
 				</Li>
 			</List>
 			<p class="text-xl font-bold text-gray-900 sm:text-xl">To download Microsoft Teams:</p>
+			<br />
 			<List class="list-decimal space-y-2">
 				<Li>
 					Go to the <a

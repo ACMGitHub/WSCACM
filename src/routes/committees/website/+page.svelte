@@ -56,14 +56,3 @@
 		</div>
 	</div>
 </div>
-
-<style>
-	a {
-		color: rgb(30 58 138);
-		text-decoration: underline;
-		font-weight: bold;
-	}
-	a:hover {
-		color: rgb(29 78 216);
-	}
-</style>
