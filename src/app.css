@@ -1,8 +1,11 @@
+@import 'flowbite';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+div {
+  font-family: 'JetBrains Mono Variable', monospace;
+}
 ul {
-    list-style-type: disc;
     padding-left: 1em;
 }

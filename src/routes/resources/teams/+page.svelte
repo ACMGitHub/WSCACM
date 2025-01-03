@@ -1,46 +1,69 @@
 <script>
-	import { Heading, Hr } from 'flowbite-svelte';
+	import { Heading, Hr, List, Li } from 'flowbite-svelte';
+	import { base } from '$app/paths';
 </script>
 
-<div>
-	<Heading tag="h1" class="mb-4" customSize="text-4xl font-extrabold  md:text-5xl lg:text-5xl"
+<div class="space-y-4 mx-12 md:mx-24 lg:mx-36">
+	<Heading tag="h1" class="mb-4" customSize="text-4xl font-extrabold md:text-5xl lg:text-5xl"
 		>Microsoft Teams</Heading
 	>
 	<Hr />
-	<p class="pb-4">
-		Wayne State College ACM communicates and stores files using Microsoft Teams. Once a member of
-		ACM you will have access to use the ACM Team in Teams. Teams allows us to branch out into
-		different channels so we have a conversations for said channel. Everyone has access to all of
-		the main channels except for the ACM Officers and ACM Officers Tasks channels as those are only
-		for ACM Officers. Channels to keep an eye on are <b
-			>General, Internship Opportunities, and any of the subcommittee channels</b
-		>.
-	</p>
-	<p class="pb-4">
+	<p>
 		If you are joining ACM it is recommended that you download Teams on your computer or phone as a
-		majority of special updates and messages will presented there. Teams also allows you to message
-		people individually or in groups, which helps cut down the amount of emails being sent back and
-		forth.
+		majority of special updates and messages will presented there. All Wayne State College students
+		have access to Teams through their myWSC. To have access to the ACM Team talk to or message an
+		ACM officer to add you.
 	</p>
-	<p class="pb-4">
-		All Wayne State College Students have access to Teams through their myWSC. To view Teams on your
-		browser all you have to do is log into your <b>myWSC</b>, go to
-		<a href="https://www.wsc.edu/current-students">Resources for Current Students</a>, click on
-		<b>Show More Applications</b>, then scroll down until you find <b>Mircosoft Teams</b>. To
-		download Microsoft Teams click
-		<a href="https://www.microsoft.com/en-us/microsoft-teams/log-in">here</a>. Make sure you sign in
-		with your Wayne State College account. For more information about Microsoft Teams click
-		<a href="https://www.wsc.edu/directory/31/help_sheets/category/957/categoryInfo/35">here</a>.
-	</p>
+	<div class="space-y-4 2xl:flex 2xl:justify-between">
+		<div class="2xl:w-1/2">
+			<p class="text-xl font-bold text-gray-900 sm:text-xl">To view Teams on browser:</p>
+			<br />
+			<List class="list-decimal space-y-2 pb-4">
+				<Li>
+					Log into your <a href="https://www.wsc.edu/mywsc" target="blank">myWSC</a> account
+				</Li>
+				<Li>
+					Go to
+					<a href="https://www.wsc.edu/current-students" target="blank"
+						>Resources for Current Students</a
+					>
+				</Li>
+				<Li>
+					Click on <b>Show More Applications</b>
+				</Li>
+				<Li>
+					Scroll down until you find <b>Microsoft Teams</b>
+				</Li>
+			</List>
+			<p class="text-xl font-bold text-gray-900 sm:text-xl">To download Microsoft Teams:</p>
+			<br />
+			<List class="list-decimal space-y-2">
+				<Li>
+					Go to the <a
+						href="https://www.microsoft.com/en-us/microsoft-teams/download-app"
+						target="blank">Microsoft Teams download page</a
+					>
+				</Li>
+				<Li>Click Download for desktop (or Download for mobile if needed)</Li>
+				<Li>Open the downloaded file and follow the installation prompts.</Li>
+				<Li>
+					Launch <b>Microsoft Teams</b> and sign in with your <b>Wayne State College</b> account
+				</Li>
+			</List>
+		</div>
+		<div>
+			<img
+				src="{base}/images/howtojointeams.gif"
+				alt="how to join teams"
+				height="100%"
+				width="700"
+			/>
+		</div>
+	</div>
 </div>
 
 <style>
 	a {
-		color: rgb(30 58 138);
-		text-decoration: underline;
-		font-weight: bold;
-	}
-	a:hover {
-		color: rgb(29 78 216);
+		color: blue;
 	}
 </style>

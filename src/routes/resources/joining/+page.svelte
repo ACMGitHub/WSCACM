@@ -3,8 +3,8 @@
 	import { base } from '$app/paths';
 </script>
 
-<div class="space-y-4">
-	<Heading tag="h1" class="mb-4" customSize="text-4xl font-extrabold  md:text-5xl lg:text-5xl"
+<div class="space-y-4 mx-12 md:mx-24 lg:mx-36">
+	<Heading tag="h1" class="mb-4" customSize="text-4xl font-extrabold md:text-5xl lg:text-5xl"
 		>How to Join</Heading
 	>
 	<Hr />
@@ -17,8 +17,8 @@
 		but it does help the club afford T-shirts and equipment.
 	</p>
 
-	<div class="py-4 md:flex md:justify-between">
-		<div class="md:w-1/2">
+	<div class="space-y-4 2xl:flex 2xl:justify-between">
+		<div class="2xl:w-1/2">
 			<p class="text-xl font-bold text-gray-900 sm:text-xl">Steps to join <span>WSC ACM</span>:</p>
 			<br />
 			<List class="list-decimal space-y-4">
