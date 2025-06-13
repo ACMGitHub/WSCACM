@@ -1,11 +1,14 @@
 <script>
 	import { base } from '$app/paths';
 
-	export let name = 'Name';
-	export let title = 'Position';
-	export let email = 'name@email.com';
-	export let avatarImage = `${base}/images/officers/no-profile.png`; // avatar image
-	export let avatarLink = ''; // linkedin profile
+	/** @type {{name?: string, title?: string, email?: string, avatarImage?: any, avatarLink?: string}} */
+	let {
+		name = 'Name',
+		title = 'Position',
+		email = 'name@email.com',
+		avatarImage = `${base}/images/officers/no-profile.png`,
+		avatarLink = ''
+	} = $props();
 </script>
 
 <div

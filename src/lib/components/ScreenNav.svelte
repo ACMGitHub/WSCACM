@@ -4,10 +4,10 @@
 	import Icon from '@iconify/svelte';
 	import { base } from '$app/paths';
 
-	let committeesHidden = true;
-	let resourcesHidden = true;
+	let committeesHidden = $state(true);
+	let resourcesHidden = $state(true);
 
-	$: activeUrl = $page.url.pathname; //this gets the page route which we use to style
+	let activeUrl = $derived($page.url.pathname); //this gets the page route which we use to style
 	const tabsStyle =
 		'font-semibold my-auto transition duration-300 p-1 self-center rounded-md hover:text-slate-900 hover:bg-slate-100';
 	const activeClass =
@@ -24,13 +24,13 @@
 	<a href="{base}/about" class={activeUrl == `${base}/about` ? activeClass : tabsStyle}>About Us</a>
 	<div
 		class="relative my-auto"
-		on:mouseover={() => {
+		onmouseover={() => {
 			committeesHidden = false;
 		}}
-		on:mouseleave={() => {
+		onmouseleave={() => {
 			committeesHidden = true;
 		}}
-		on:focus={() => {
+		onfocus={() => {
 			committeesHidden = !committeesHidden;
 		}}
 		aria-haspopup="true"
@@ -86,13 +86,13 @@
 	</a>
 	<div
 		class="relative my-auto"
-		on:mouseover={() => {
+		onmouseover={() => {
 			resourcesHidden = false;
 		}}
-		on:mouseleave={() => {
+		onmouseleave={() => {
 			resourcesHidden = true;
 		}}
-		on:focus={() => {
+		onfocus={() => {
 			resourcesHidden = !resourcesHidden;
 		}}
 		aria-haspopup="true"

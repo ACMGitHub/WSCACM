@@ -1,5 +1,5 @@
 <script>
-	import { Carousel, Img, Heading } from 'flowbite-svelte';
+	import { Carousel } from 'flowbite-svelte';
 	import { base } from '$app/paths';
 	import images from '../routes/images.json';
 </script>
@@ -19,15 +19,11 @@
 
 	<div class="md:col-span-2 justify-between z-0">
 		<div class="w-full lg:px-44">
-			<Carousel
-				class="flex h-[550px] justify-center items-center"
-				{images}
-				duration="7000"
-				let:Controls
-				let:Indicators
-			>
-				<Controls class="px-10 text-color-black" />
-				<Indicators />
+			<Carousel class="flex h-[550px] justify-center items-center" {images} duration="7000">
+				{#snippet children({ Controls, Indicators })}
+					<Controls class="px-10 text-color-black" />
+					<Indicators />
+				{/snippet}
 			</Carousel>
 		</div>
 		<p class="text-center text-xl py-10">
