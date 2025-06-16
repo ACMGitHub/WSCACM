@@ -20,10 +20,10 @@
 		<PhoneNav />
 	{/if}
 
-	<div class="flex items-center h-screen">
+	<div class="flex bg-slate-100">
 		{@render children?.()}
 	</div>
-	<Footer class="fixed bottom-0 left-0 right-0 bg-slate-900 text-slate-300 py-8 text-center">
+	<Footer class="bg-slate-900 text-slate-300 py-4 text-center">
 		<FooterLinkGroup ulClass="flex justify-evenly mt-3 text-sm list-none">
 			<FooterCopyright href="{base}/" by="WSC ACM™" year={2024} /> |
 			<FooterLink href="https://www.wsc.edu/">Wayne State College</FooterLink> |

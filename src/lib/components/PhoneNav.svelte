@@ -44,42 +44,6 @@
 				</li>
 				<li>
 					<a
-						class={activeUrl == '/committees/comppro' ? activeClass : tabsStyle}
-						href="{base}/committees/comppro"
-						onclick={() => {
-							smallMenuHidden = true;
-						}}>Competitive Programming</a
-					>
-				</li>
-				<li>
-					<a
-						class={activeUrl == '/committees/project' ? activeClass : tabsStyle}
-						href="{base}/committees/project"
-						onclick={() => {
-							smallMenuHidden = true;
-						}}>Project Committee</a
-					>
-				</li>
-				<li>
-					<a
-						class={activeUrl == '/committees/robotics' ? activeClass : tabsStyle}
-						href="{base}/committees/robotics"
-						onclick={() => {
-							smallMenuHidden = true;
-						}}>Robotics Committee</a
-					>
-				</li>
-				<li>
-					<a
-						class={activeUrl == '/committees/website' ? activeClass : tabsStyle}
-						href="{base}/committees/website"
-						onclick={() => {
-							smallMenuHidden = true;
-						}}>Website Committee</a
-					>
-				</li>
-				<li>
-					<a
 						href="{base}/meetingtimes"
 						class={activeUrl == '/meetingtimes' ? activeClass : tabsStyle}
 						onclick={() => {

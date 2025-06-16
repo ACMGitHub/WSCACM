@@ -4,7 +4,6 @@
 	import Icon from '@iconify/svelte';
 	import { base } from '$app/paths';
 
-	let committeesHidden = $state(true);
 	let resourcesHidden = $state(true);
 
 	let activeUrl = $derived($page.url.pathname); //this gets the page route which we use to style
@@ -22,59 +21,6 @@
 	<img src="{base}/images/ACMLogo.png" alt="ACM Logo" class="w-36" />
 	<a href="{base}/" class={activeUrl == `${base}/` ? activeClass : tabsStyle}>Home</a>
 	<a href="{base}/about" class={activeUrl == `${base}/about` ? activeClass : tabsStyle}>About Us</a>
-	<div
-		class="relative my-auto"
-		onmouseover={() => {
-			committeesHidden = false;
-		}}
-		onmouseleave={() => {
-			committeesHidden = true;
-		}}
-		onfocus={() => {
-			committeesHidden = !committeesHidden;
-		}}
-		aria-haspopup="true"
-		role="button"
-		tabindex="-1"
-	>
-		<button class="flex {tabsStyle}">
-			Committees
-			<Icon
-				icon="ep:arrow-down-bold"
-				class="m-1 duration-150 self-center {committeesHidden ? '-rotate-0' : '-rotate-180'}"
-			/>
-		</button>
-		{#if !committeesHidden}
-			<div class="absolute -left-14 my-auto" transition:slide={{ duration: 300, axis: 'y' }}>
-				<ul class={dropDownStyle}>
-					<li>
-						<a
-							class={activeUrl == `${base}/committees/comppro` ? activeClass : tabsStyle}
-							href="{base}/committees/comppro">Competitive Programming</a
-						>
-					</li>
-					<li>
-						<a
-							class={activeUrl == `${base}/committees/project` ? activeClass : tabsStyle}
-							href="{base}/committees/project">Project Committee</a
-						>
-					</li>
-					<li>
-						<a
-							class={activeUrl == `${base}/committees/robotics` ? activeClass : tabsStyle}
-							href="{base}/committees/robotics">Robotics Committee</a
-						>
-					</li>
-					<li>
-						<a
-							class={activeUrl == `${base}/committees/website` ? activeClass : tabsStyle}
-							href="{base}/committees/website">Website Committee</a
-						>
-					</li>
-				</ul>
-			</div>
-		{/if}
-	</div>
 	<a
 		href="{base}/meetingtimes"
 		class={activeUrl == `${base}/meetingtimes` ? activeClass : tabsStyle}
