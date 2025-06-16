@@ -4,20 +4,15 @@
 	import images from '../routes/images.json';
 </script>
 
-<div class="grid md:grid-cols-3 -my-8">
-	<div
-		class="bg-[url(/images/circuit-board.jpeg)] bg-fixed bg-center flex flex-col items-center justify-center"
-	>
-		<img src="{base}/images/ACMLogo.png" alt="ACM Banner" class="w-4/5" />
-
-		<h2
-			class="pb-8 text-2xl font font-extrabold md:text-3xl lg:text:4xl text-slate-100 text-center"
-		>
+<div class="flex bg-[url(/images/circuit-board.jpeg)] bg-center h-full items-center text-center">
+	<div class="w-4/5">
+		<img src="{base}/images/ACMLogo.png" alt="ACM Banner" />
+		<h2 class="text-2xl font font-extrabold md:text-3xl lg:text:4xl text-slate-100">
 			Where ALL WSC Students are Welcome!
 		</h2>
 	</div>
 
-	<div class="md:col-span-2 justify-between z-0">
+	<div class="bg-slate-100 h-full">
 		<div class="w-full lg:px-44">
 			<Carousel class="flex h-[550px] justify-center items-center" {images} duration="7000">
 				{#snippet children({ Controls, Indicators })}

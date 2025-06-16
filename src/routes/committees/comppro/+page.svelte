@@ -1,14 +1,9 @@
 <script>
-	import { Heading, Hr, List, Li } from 'flowbite-svelte';
+	import { Hr, List, Li } from 'flowbite-svelte';
 </script>
 
-<div class="mx-12">
-	<Heading
-		tag="h1"
-		class="text-center"
-		customSize="text-2xl font-extrabold  md:text-3xl lg:text-3xl"
-		>Competitive Programming
-	</Heading>
+<div class=" content-center mx-12">
+	<p class="text-center text-2xl font-extrabold md:text-3xl lg:text-3xl">Competitive Programming</p>
 	<Hr class="my-8 " />
 
 	<p>
@@ -19,12 +14,7 @@
 	</p>
 	<div class="flex flex-col md:flex-row gap-x-6">
 		<div class="flex-1">
-			<Heading
-				tag="h3"
-				class="text-align-left"
-				customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
-				>Rules
-			</Heading>
+			<p class="text-center text-2xl font-extrabold md:text-3xl lg:text-3xl">Rules</p>
 			<List tag="ul" list="disc" class="ps-5 space-y-1">
 				<Li
 					>At least one team captian to hold practices and look for competitions to participate in.</Li
@@ -34,12 +24,7 @@
 			</List>
 		</div>
 		<div class="flex-1 justify-between">
-			<Heading
-				tag="h3"
-				class="text-align-left"
-				customSize="text-lg font-extrabold m-4  md:text-xl lg:text-xl"
-				>Recommendations
-			</Heading>
+			<p class="text-center text-2xl font-extrabold md:text-3xl lg:text-3xl">Recommendations</p>
 			<List tag="ul" list="disc" class="ps-5 space-y-1">
 				<Li>Have weekly or biweekly practices/meetings that work for the most people.</Li>
 				<Li

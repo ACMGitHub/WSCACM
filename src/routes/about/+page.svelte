@@ -1,15 +1,13 @@
 <script>
-	import { Heading, Img } from 'flowbite-svelte';
+	import { Img } from 'flowbite-svelte';
 	import { base } from '$app/paths';
 	import { fly } from 'svelte/transition';
 </script>
 
-<div class="mx-12 md:mx-24 lg:mx-36">
+<div class=" content-center mx-12 md:mx-24 lg:mx-36">
 	<div class="2xl:flex 2xl:justify-between space-x-4 pb-4">
 		<div class="space-y-4 2xl:w-1/2 pb-4">
-			<Heading tag="h2" customSize="text-2xl font-extrabold md:text-3xl lg:text-3xl"
-				>What is WSC ACM?</Heading
-			>
+			<p class="text-2xl font-extrabold md:text-3xl lg:text-3xl">What is WSC ACM?</p>
 			<p class="3xl:text-lg">
 				The <b>Wayne State College ACM chapter</b> is a student group affiliated with the international
 				ACM, a nonprofit organization that connects computing educators, researchers, and professionals
@@ -34,8 +32,7 @@
 		</div>
 	</div>
 	<div class="space-y-4">
-		<Heading tag="h2" customSize="text-2xl font-extrabold md:text-3xl lg:text-3xl">Mission:</Heading
-		>
+		<p class="text-2xl font-extrabold md:text-3xl lg:text-3xl">Mission:</p>
 		<p class="3xl:text-lg">
 			Our goal with the club is to prepare members with tools and skills that can be used in their
 			future careers. We accept anyone interested in learning more about computer science and

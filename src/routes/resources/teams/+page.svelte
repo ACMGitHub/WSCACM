@@ -1,12 +1,10 @@
 <script>
-	import { Heading, Hr, List, Li } from 'flowbite-svelte';
+	import { Hr, List, Li } from 'flowbite-svelte';
 	import { base } from '$app/paths';
 </script>
 
-<div class="space-y-4 mx-12 md:mx-24 lg:mx-36">
-	<Heading tag="h1" class="mb-4" customSize="text-4xl font-extrabold md:text-5xl lg:text-5xl"
-		>Microsoft Teams</Heading
-	>
+<div class=" content-center space-y-4 mx-12 md:mx-24 lg:mx-36">
+	<p class="text-center text-2xl font-extrabold md:text-3xl lg:text-3xl">Microsoft Teams</p>
 	<Hr />
 	<p>
 		If you are joining ACM it is recommended that you download Teams on your computer or phone as a

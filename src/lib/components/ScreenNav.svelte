@@ -17,7 +17,7 @@
 </script>
 
 <div
-	class="text-slate-100 bg-slate-900 px-4 fixed top-0 left-0 right-0 flex justify-between z-10 text-sm md:text-lg"
+	class="text-slate-100 bg-slate-900 px-4 sticky top-0 left-0 right-0 flex justify-between z-10 text-sm md:text-lg"
 >
 	<img src="{base}/images/ACMLogo.png" alt="ACM Logo" class="w-36" />
 	<a href="{base}/" class={activeUrl == `${base}/` ? activeClass : tabsStyle}>Home</a>

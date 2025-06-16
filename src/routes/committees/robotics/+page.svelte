@@ -1,14 +1,9 @@
 <script>
-	import { A, Heading, Hr, Li, List, P } from 'flowbite-svelte';
+	import { Hr, Li, List } from 'flowbite-svelte';
 </script>
 
-<div class="mx-12">
-	<Heading
-		tag="h1"
-		class="text-center"
-		customSize="text-2xl font-extrabold  md:text-3xl lg:text-3xl"
-		>Robotics Committee
-	</Heading>
+<div class=" content-center mx-12">
+	<p class="text-center text-2xl font-extrabold md:text-3xl lg:text-3xl">Robotics Committee</p>
 	<Hr class="my-8" />
 	<p>
 		The focus of robotics committee is to allow students to be creative. Dr. Molly Curnyn is in
@@ -19,12 +14,7 @@
 	</p>
 	<div class="flex-col flex gap-x-6 md:flex-row">
 		<div class="flex-1">
-			<Heading
-				tag="h3"
-				class="text-align-left"
-				customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
-				>Rules
-			</Heading>
+			<p class="text-center text-2xl font-extrabold md:text-3xl lg:text-3xl">Rules</p>
 			<List tag="ul" list="disc" class="ps-5 space-y-1">
 				<Li
 					>The students in the robotics committee will need Dr. Curnyn's permission to use the lab
@@ -49,12 +39,7 @@
 			</List>
 		</div>
 		<div class="flex-1">
-			<Heading
-				tag="h3"
-				class="text-align-left"
-				customSize="text-lg font-extrabold m-4  md:text-xl lg:text-xl"
-				>Recommendations
-			</Heading>
+			<p class="text-center text-2xl font-extrabold md:text-3xl lg:text-3xl">Recommendations</p>
 			<List tag="ul" list="disc" class="space-y-1 ps-5">
 				<Li>Meet weekly or biweekly to work on a robot(s).</Li>
 				<Li>Find a project(s) that everyone can work on together.</Li>

@@ -3,7 +3,7 @@
 	import Card from '../../lib/components/Card.svelte';
 </script>
 
-<div class="mx-12 md:mx-24 lg:mx-36 gap-x-8 gap-y-20">
+<div class="h-screen content-center mx-12 md:mx-24 lg:mx-36 gap-x-8 gap-y-20">
 	<div>
 		<h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">Contact Us</h2>
 		<p class="mt-6 text-lg leading-8">

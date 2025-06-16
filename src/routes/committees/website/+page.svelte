@@ -1,14 +1,9 @@
 <script>
-	import { Heading, Hr, Li, List } from 'flowbite-svelte';
+	import { Hr, Li, List } from 'flowbite-svelte';
 </script>
 
-<div class="mx-12">
-	<Heading
-		tag="h1"
-		class="text-center"
-		customSize="text-2xl font-extrabold  md:text-3xl lg:text-3xl"
-		>Website Committee
-	</Heading>
+<div class=" content-center mx-12">
+	<p class="text-center text-2xl font-extrabold md:text-3xl lg:text-3xl">Website Committee</p>
 	<Hr class="my-8" />
 	<p>
 		The Website Committee takes care of the ACM Website. They would update the website with new
@@ -19,12 +14,7 @@
 	</p>
 	<div class="flex-col flex gap-x-6 md:flex-row">
 		<div class="flex-1">
-			<Heading
-				tag="h3"
-				class="text-align-left"
-				customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
-				>Rules
-			</Heading>
+			<p class="text-center text-2xl font-extrabold md:text-3xl lg:text-3xl">Rules</p>
 			<List tag="ul" list="disc" class="ps-5 space-y-1">
 				<Li
 					>There needs to be one project leader that is in charge of organizing and reviewing any
@@ -38,12 +28,7 @@
 			</List>
 		</div>
 		<div class="flex-1">
-			<Heading
-				tag="h3"
-				class="text-align-left"
-				customSize="text-lg font-extrabold m-4  md:text-xl lg:text-xl"
-				>Recommendations
-			</Heading>
+			<p class="text-center text-2xl font-extrabold md:text-3xl lg:text-3xl">Recommendations</p>
 			<List tag="ul" list="disc" class="space-y-1 ps-5">
 				<Li>Meet weekly or biweekly to discuss website plans.</Li>
 				<Li>Understanding of HTML, JavaScript, and CSS.</Li>

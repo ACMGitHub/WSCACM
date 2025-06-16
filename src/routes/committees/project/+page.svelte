@@ -1,14 +1,9 @@
 <script>
-	import { A, Heading, Hr, Li, List, P } from 'flowbite-svelte';
+	import { Hr, Li, List } from 'flowbite-svelte';
 </script>
 
-<div class="mx-12">
-	<Heading
-		tag="h1"
-		class="text-center"
-		customSize="text-2xl font-extrabold  md:text-3xl lg:text-3xl"
-		>Project Committee
-	</Heading>
+<div class=" content-center mx-12">
+	<p class="text-center text-2xl font-extrabold md:text-3xl lg:text-3xl">Project Committee</p>
 	<Hr class="my-8" />
 	<p>
 		Project committee allows students to develop projects together in a team setting. There can be
@@ -20,12 +15,7 @@
 	</p>
 	<div class="flex flex-col md:flex-row gap-x-6">
 		<div class="flex-1">
-			<Heading
-				tag="h3"
-				class="text-align-left"
-				customSize="text-lg font-extrabold m-4 md:text-xl lg:text-xl"
-				>Rules
-			</Heading>
+			<p class="text-center text-2xl font-extrabold md:text-3xl lg:text-3xl">Rules</p>
 			<List tag="ul" list="disc" class="ps-5 space-y-1">
 				<Li>Requirements of a project depend on said project.</Li>
 				<Li
@@ -44,12 +34,7 @@
 			</List>
 		</div>
 		<div class="flex-1">
-			<Heading
-				tag="h3"
-				class="text-align-left"
-				customSize="text-lg font-extrabold m-4  md:text-xl lg:text-xl"
-				>Recommendations
-			</Heading>
+			<p class="text-center text-2xl font-extrabold md:text-3xl lg:text-3xl">Recommendations</p>
 			<List tag="ul" list="disc" class="space-y-1 ps-5">
 				<Li>Have common a goal, outline, and milestones for the project.</Li>
 				<Li>A basic level of how GitHub works before writing any code.</Li>
