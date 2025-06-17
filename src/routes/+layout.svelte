@@ -13,8 +13,10 @@
 
 <svelte:window bind:innerWidth />
 
-<div class="h-screen bg-slate-900">
-	<div>
+<div
+	class="flex flex-col h-screen bg-slate-100 bg-[url('/images/circuit-board.jpeg')] bg-cover bg-center"
+>
+	<div class="shrink-0">
 		{#if innerWidth >= 840}
 			<ScreenNav />
 		{:else}
@@ -22,11 +24,11 @@
 		{/if}
 	</div>
 
-	<div class="bg-slate-100">
+	<div class="flex-1 overflow-auto bg-black/60">
 		{@render children?.()}
 	</div>
 
-	<div>
+	<div class="shrink-0">
 		<Footer class="bg-slate-900 text-slate-300 p-6 items-center justify-center">
 			<FooterLinkGroup ulClass="flex justify-evenly text-sm list-none">
 				<FooterCopyright href="{base}/" by="WSC ACM™" year={2024} /> |
