@@ -1,15 +1,18 @@
 <script>
 	import { base } from '$app/paths';
 
-	export let name = 'Name';
-	export let title = 'Position';
-	export let email = 'name@email.com';
-	export let avatarImage = `${base}/images/officers/no-profile.png`; // avatar image
-	export let avatarLink = ''; // linkedin profile
+	/** @type {{name?: string, title?: string, email?: string, avatarImage?: any, avatarLink?: string}} */
+	let {
+		name = 'Name',
+		title = 'Position',
+		email = 'name@email.com',
+		avatarImage = `${base}/images/officers/no-profile.png`,
+		avatarLink = ''
+	} = $props();
 </script>
 
 <div
-	class="flex items-center gap-x-6 shadow-xl p-4 my-2 rounded-lg hover:scale-105 hover:bg-[#0f172ac6] hover:text-white duration-300"
+	class="flex items-center text-slate-900 gap-x-6 shadow-xl p-4 my-2 rounded-lg bg-slate-100 hover:scale-105 hover:bg-[#0f172ac6] hover:text-white duration-300"
 >
 	<img src={avatarImage} alt="Image of {name}" class="w-16 h-16 rounded-full object-cover" />
 

@@ -1,38 +1,40 @@
 <script>
-	import {
-		Footer,
-		FooterLinkGroup,
-		FooterLink,
-		Img,
-		Heading,
-		FooterCopyright
-	} from 'flowbite-svelte';
-	import '../app.css';
+	import { Footer, FooterLinkGroup, FooterLink, FooterCopyright } from 'flowbite-svelte';
 	import ScreenNav from '../lib/components/ScreenNav.svelte';
 	import PhoneNav from '../lib/components/PhoneNav.svelte';
 	import { base } from '$app/paths';
+	import '../app.css';
 	import '@fontsource-variable/jetbrains-mono';
 
-	let innerWidth = 0;
+	let { children } = $props();
+
+	let innerWidth = $state(0);
 </script>
 
 <svelte:window bind:innerWidth />
 
-{#if innerWidth >= 840}
-	<ScreenNav />
-{:else}
-	<PhoneNav />
-{/if}
-
-<div class="mt-24">
-	<div class="bg-slate-100 py-8">
-		<div><slot /></div>
+<div
+	class="flex flex-col h-screen bg-slate-100 bg-[url('/images/circuit-board.jpeg')] bg-cover bg-center"
+>
+	<div class="shrink-0">
+		{#if innerWidth >= 840}
+			<ScreenNav />
+		{:else}
+			<PhoneNav />
+		{/if}
 	</div>
-	<Footer class="bg-slate-900 text-slate-300 py-8 text-center">
-		<FooterLinkGroup ulClass="flex justify-evenly mt-3 text-sm list-none p-0">
-			<FooterCopyright href="{base}/" by="WSC ACM™" year={2024} /> |
-			<FooterLink href="https://www.wsc.edu/">Wayne State College</FooterLink> |
-			<FooterLink href="https://www.acm.org/">Association for Computing Machinery</FooterLink>
-		</FooterLinkGroup>
-	</Footer>
+
+	<div class="flex-1 overflow-auto bg-black/60">
+		{@render children?.()}
+	</div>
+
+	<div class="shrink-0">
+		<Footer class="bg-slate-900 text-slate-300 p-6 items-center justify-center">
+			<FooterLinkGroup ulClass="flex justify-evenly text-sm list-none">
+				<FooterCopyright href="{base}/" by="WSC ACM™" year={2024} /> |
+				<FooterLink href="https://www.wsc.edu/">Wayne State College</FooterLink> |
+				<FooterLink href="https://www.acm.org/">Association for Computing Machinery</FooterLink>
+			</FooterLinkGroup>
+		</Footer>
+	</div>
 </div>

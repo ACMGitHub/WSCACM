@@ -26,7 +26,10 @@ export default {
 			}
 		}
 	},
-	purge: ['./index.html', './src/**/*.{svelte,js,ts}'], //for unused css
+	content: [
+		'./index.html',
+		'./src/**/*.{js,ts,svelte,jsx,tsx}' // adjust based on your project
+	],
 	variants: {
 		extend: {}
 	},
