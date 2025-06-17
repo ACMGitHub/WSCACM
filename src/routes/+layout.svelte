@@ -13,21 +13,26 @@
 
 <svelte:window bind:innerWidth />
 
-<div>
-	{#if innerWidth >= 840}
-		<ScreenNav />
-	{:else}
-		<PhoneNav />
-	{/if}
+<div class="h-screen bg-slate-900">
+	<div>
+		{#if innerWidth >= 840}
+			<ScreenNav />
+		{:else}
+			<PhoneNav />
+		{/if}
+	</div>
 
-	<div class="flex bg-slate-100">
+	<div class="bg-slate-100">
 		{@render children?.()}
 	</div>
-	<Footer class="bg-slate-900 text-slate-300 py-4 text-center">
-		<FooterLinkGroup ulClass="flex justify-evenly mt-3 text-sm list-none">
-			<FooterCopyright href="{base}/" by="WSC ACM™" year={2024} /> |
-			<FooterLink href="https://www.wsc.edu/">Wayne State College</FooterLink> |
-			<FooterLink href="https://www.acm.org/">Association for Computing Machinery</FooterLink>
-		</FooterLinkGroup>
-	</Footer>
+
+	<div>
+		<Footer class="bg-slate-900 text-slate-300 p-6 items-center justify-center">
+			<FooterLinkGroup ulClass="flex justify-evenly text-sm list-none">
+				<FooterCopyright href="{base}/" by="WSC ACM™" year={2024} /> |
+				<FooterLink href="https://www.wsc.edu/">Wayne State College</FooterLink> |
+				<FooterLink href="https://www.acm.org/">Association for Computing Machinery</FooterLink>
+			</FooterLinkGroup>
+		</Footer>
+	</div>
 </div>

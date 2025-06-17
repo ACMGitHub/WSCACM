@@ -3,7 +3,7 @@
 	import { base } from '$app/paths';
 </script>
 
-<div class="my-20 content-center space-y-4 mx-12 md:mx-24 lg:mx-36">
+<div class="content-center space-y-4 mx-12 md:mx-24 lg:mx-36">
 	<p class="text-center text-2xl font-extrabold md:text-3xl lg:text-3xl">How to Join</p>
 	<Hr />
 	<p>

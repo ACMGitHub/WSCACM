@@ -3,7 +3,7 @@
 	import Card from '../../lib/components/Card.svelte';
 </script>
 
-<div class="my-22 content-center mx-12 md:mx-24 lg:mx-36 gap-x-8 gap-y-20">
+<div class="content-center mx-12 md:mx-24 lg:mx-36 gap-x-8 gap-y-20">
 	<div>
 		<h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">Contact Us</h2>
 		<p class="mt-6 text-lg leading-8">
@@ -14,7 +14,7 @@
 		</p>
 	</div>
 
-	<p class="pt-20 font-bold text-xl md:text-3xl">2024 Officer Team</p>
+	<p class="pt-10 font-bold text-xl md:text-3xl">2024 Officer Team</p>
 
 	<div class="py-4 grid gap-x-8 gap-y-12 md:grid-cols-2 lg:grid-cols-3 sm:gap-y-16">
 		<Card

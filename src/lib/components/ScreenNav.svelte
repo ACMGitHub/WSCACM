@@ -5,7 +5,7 @@
 	import { base } from '$app/paths';
 	import { Dropdown, DropdownItem } from 'flowbite-svelte';
 
-	let isOpen = $derived(false);
+	let isOpen = $state(false);
 
 	let activeUrl = $derived($page.url.pathname); //this gets the page route which we use to style
 	const tabsStyle =
@@ -13,9 +13,7 @@
 	const activeClass =
 		'p-1 text-slate-900 bg-slate-100 my-auto font-semibold self-center rounded-md';
 	const dropDownStyle =
-		'w-min p-3 bg-slate-900 space-y-3 text-slate-100 rounded-md text-center text-nowrap list-none';
-
-	$inspect(isOpen);
+		'p-3 bg-slate-900 space-y-3 text-slate-100 rounded-md text-center';
 </script>
 
 <div
