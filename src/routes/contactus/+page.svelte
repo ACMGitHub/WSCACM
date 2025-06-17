@@ -3,7 +3,7 @@
 	import Card from '../../lib/components/Card.svelte';
 </script>
 
-<div class="content-center mx-12 md:mx-24 lg:mx-36 gap-x-8 gap-y-20">
+<div class="my-22 content-center mx-12 md:mx-24 lg:mx-36 gap-x-8 gap-y-20">
 	<div>
 		<h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">Contact Us</h2>
 		<p class="mt-6 text-lg leading-8">
@@ -37,8 +37,8 @@
 			name="Heidi Taylor"
 			title="Secretary"
 			email="hetayl01@wsc.edu"
-			avatarImage="{base}/images/officers/no-profile.jpg"
-			avatarLink=""
+			avatarImage="{base}/images/officers/heidiT.jpg"
+			avatarLink="https://www.linkedin.com/in/heidi-taylor-/"
 		/>
 
 		<Card
@@ -49,13 +49,13 @@
 			avatarLink="https://www.linkedin.com/in/rafael-negrete-88b042299/"
 		/>
 
-		<Card
+		<!-- <Card
 			name="Adah Heng"
 			title="Marketing"
 			email="adheng01@wsc.edu"
 			avatarImage="{base}/images/officers/AdahH.jpg"
 			avatarLink="https://www.linkedin.com/in/adah-heng/"
-		/>
+		/> -->
 
 		<Card
 			name="Enoch Atuahene"
