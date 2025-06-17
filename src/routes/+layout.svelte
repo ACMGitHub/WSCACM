@@ -3,7 +3,6 @@
 	import ScreenNav from '../lib/components/ScreenNav.svelte';
 	import PhoneNav from '../lib/components/PhoneNav.svelte';
 	import { base } from '$app/paths';
-	import '../app.css';
 	import '@fontsource-variable/jetbrains-mono';
 
 	let { children } = $props();
