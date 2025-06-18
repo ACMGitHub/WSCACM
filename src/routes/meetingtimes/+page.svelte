@@ -1,5 +1,5 @@
 <div class="h-full w-full">
-	<div class="h-full w-full text-white flex flex-col justify-center items-center px-4 py-8">
+	<div class="text-white flex flex-col justify-center items-center px-4 py-8">
 		<div class="w-full max-w-5xl space-y-6 text-center">
 			<p class="text-3xl font-extrabold md:text-2xl lg:text-3xl">
 				Meeting Times: Thursdays, 5:00 PM

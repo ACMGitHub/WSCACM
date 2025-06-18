@@ -4,7 +4,7 @@
 </script>
 
 <div class="h-full w-full">
-	<div class="h-full w-full text-white flex flex-col justify-center px-6 py-10">
+	<div class="text-white flex flex-col justify-center px-6 py-10">
 		<div class="w-full max-w-7xl mx-auto space-y-10">
 			<!-- Header text -->
 			<div>
@@ -18,7 +18,7 @@
 			</div>
 
 			<!-- Officer heading -->
-			<p class="font-bold text-2xl md:text-3xl">2024 Officer Team</p>
+			<p class="font-bold text-2xl md:text-3xl">2025 Officer Team</p>
 
 			<!-- Card grid -->
 			<div class="grid gap-x-8 gap-y-12 sm:gap-y-16 md:grid-cols-2 lg:grid-cols-3">

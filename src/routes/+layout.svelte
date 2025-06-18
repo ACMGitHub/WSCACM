@@ -14,7 +14,7 @@
 <svelte:window bind:innerWidth />
 
 <div
-	class="flex flex-col h-screen bg-slate-100 bg-[url('/images/circuit-board.jpeg')] bg-cover bg-center"
+	class="flex flex-col h-screen bg-slate-100 text-slate-100 bg-[url('/images/circuit-board.jpeg')] bg-cover bg-center"
 >
 	<div class="shrink-0">
 		{#if innerWidth >= 840}

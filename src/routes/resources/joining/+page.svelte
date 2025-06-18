@@ -3,7 +3,7 @@
 	import { base } from '$app/paths';
 </script>
 
-<div class="h-full w-full py-12 px-6 md:px-12 lg:px-24 xl:px-36 flex items-center text-white">
+<div class="w-full py-9 px-6 md:px-12 lg:px-24 xl:px-36 flex items-center text-white">
 	<div class="w-full max-w-7xl mx-auto space-y-12">
 		<!-- Title -->
 		<div class="text-center space-y-4">
